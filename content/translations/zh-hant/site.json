@@ -1,11 +1,11 @@
 {
-  "tagline": "您的個人部落格，由 gitblog 提供技術支援。",
-  "description": "Gitblog 是一個由 GitHub 驅動的部落格平台，讓任何人都能輕鬆建立和管理自己的部落格。透過簡單的設定和靈活的自訂功能，您可以打造專屬的空間，與全世界分享您的知識、經驗和想法。",
+  "tagline": "GitBlog——與GitHub連結的專屬部落格。",
+  "description": "GitBlog 是一個基於 GitHub 的平台，讓任何人都能輕鬆快速地建立並經營自己的部落格。透過簡易的設定與自由的客製化功能，歡迎您在專屬的空間中記錄並分享您的開發經驗、知識與日常生活。",
   "footer": "由 gitblog 提供技術支援",
   "locale": "zh-hant",
-  "sourceHash": "e61a84eafbcc292494b2d7186362637dfd8fe99e509f9307ace023a1a098f159",
+  "sourceHash": "1f53b92174a9aecfb064bd9596920547787da0b33309834b173e24b76a3269a8",
   "sourceLocale": "ko",
   "translationSchemaVersion": "site-copy-v1",
   "translationSource": "deepl",
-  "translatedAt": "2026-11-03T09:36:42.562Z"
+  "translatedAt": "2026-11-03T18:26:53.322Z"
 }

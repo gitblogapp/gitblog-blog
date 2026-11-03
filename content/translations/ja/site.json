@@ -1,11 +1,11 @@
 {
-  "tagline": "gitblog を利用した、あなただけのブログです。",
-  "description": "Gitblogは、GitHubを基盤としたブログプラットフォームで、誰でも簡単に自分のブログを作成・管理できます。セットアップが簡単で、柔軟なカスタマイズが可能なので、自分の知識や経験、アイデアを世界と共有するための独自のスペースを構築できます。",
+  "tagline": "GitHubと連携する自分だけのブログ、GitBlog。",
+  "description": "GitBlogは、GitHubを基盤として、誰でも簡単かつ迅速に自分だけのブログを作成・運営できるプラットフォームです。簡単な設定と自由なカスタマイズで、開発の経験や知識、日常を自分だけのスペースに記録し、共有してみましょう。",
   "footer": "Gitblogで動作しています。",
   "locale": "ja",
-  "sourceHash": "e61a84eafbcc292494b2d7186362637dfd8fe99e509f9307ace023a1a098f159",
+  "sourceHash": "1f53b92174a9aecfb064bd9596920547787da0b33309834b173e24b76a3269a8",
   "sourceLocale": "ko",
   "translationSchemaVersion": "site-copy-v1",
   "translationSource": "deepl",
-  "translatedAt": "2026-11-03T09:36:38.943Z"
+  "translatedAt": "2026-11-03T18:26:50.764Z"
 }

@@ -1,11 +1,11 @@
 {
-  "tagline": "Your own blog, powered by gitblog.",
-  "description": "Gitblog is a GitHub-powered blogging platform that makes it easy for anyone to create and manage their own blog. With simple setup and flexible customization, you can build your own space to share your knowledge, experiences, and ideas with the world.",
+  "tagline": "GitBlog: My own blog connected to GitHub.",
+  "description": "GitBlog is a GitHub-based platform that allows anyone to easily and quickly create and manage their own blog. With simple setup and flexible customization options, you can document and share your development experiences, knowledge, and daily life in your own personal space.",
   "footer": "Powered by gitblog",
   "locale": "en",
-  "sourceHash": "e61a84eafbcc292494b2d7186362637dfd8fe99e509f9307ace023a1a098f159",
+  "sourceHash": "1f53b92174a9aecfb064bd9596920547787da0b33309834b173e24b76a3269a8",
   "sourceLocale": "ko",
   "translationSchemaVersion": "site-copy-v1",
   "translationSource": "deepl",
-  "translatedAt": "2026-11-03T09:36:33.839Z"
+  "translatedAt": "2026-11-03T18:26:47.252Z"
 }
