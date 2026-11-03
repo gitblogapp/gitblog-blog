@@ -2,7 +2,7 @@
 
 이 Astro 템플릿은 공통 manifest/RSS v1과 buildCommit을 출력합니다. 공식 서비스 등록은 템플릿 계보와 pinned reusable workflow에 대한 서버 지원을 별도로 요구합니다.
 
-등록 서비스는 GitBlog 템플릿 카탈로그에 게시된 저장소의 계보를 확인합니다. 공식 템플릿의 `deploy.yml`과 `sync-hub.yml`은 `PUBLIC_HUB_ENABLED=true`와 유효한 `PUBLIC_HUB_URL` 설정으로 등록 job을 실행합니다. 피드 등록에는 별도의 Actions 변수 `GITBLOG_OFFICIAL_INTEGRATION`이 필요하지 않습니다. 승인된 reusable workflow pin과 서버의 템플릿 계보·OIDC 검증은 그대로 유지됩니다. 새 템플릿을 추가할 때는 서버 카탈로그와 인증 지원을 먼저 준비해야 합니다.
+고정된 등록 실행 코드는 공식 Svelte·Astro·React·Vanilla 배포 저장소의 template/parent/source 계보를 확인합니다. 개발 저장소나 다른 계정의 동명 템플릿은 허용하지 않습니다. 공식 템플릿의 `deploy.yml`과 `sync-hub.yml`은 `PUBLIC_HUB_ENABLED=true`와 유효한 `PUBLIC_HUB_URL` 설정으로 등록 job을 실행합니다. 피드 등록에는 별도의 Actions 변수 `GITBLOG_OFFICIAL_INTEGRATION`이 필요하지 않습니다. 승인된 reusable workflow pin과 실행 코드의 템플릿 계보 검증과 서버의 OIDC 검증은 그대로 유지됩니다. 새 템플릿을 추가할 때는 서버 카탈로그와 인증 지원을 먼저 준비해야 합니다.
 
 별도 템플릿 지원 시 서비스의 repository 판별·템플릿 업데이트 소스·등록 OIDC 허용값·worker 코드의 계보 정책을 함께 조정해야 합니다. 로컬 register-blog 스크립트만 변경해도 pinned 원격 실행 코드가 바뀌지 않습니다. 이 업데이트에서 서비스 코드는 변경하지 않았습니다.
 
