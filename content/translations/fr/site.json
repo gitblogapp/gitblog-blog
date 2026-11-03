@@ -1,0 +1,11 @@
+{
+  "tagline": "Votre propre blog, optimisé par gitblog.",
+  "description": "Gitblog est une plateforme de blogs basée sur GitHub qui permet à tout un chacun de créer et de gérer facilement son propre blog. Grâce à une configuration simple et à des options de personnalisation flexibles, vous pouvez créer votre propre espace pour partager vos connaissances, vos expériences et vos idées avec le monde entier.",
+  "footer": "Propulsé par gitblog",
+  "locale": "fr",
+  "sourceHash": "e61a84eafbcc292494b2d7186362637dfd8fe99e509f9307ace023a1a098f159",
+  "sourceLocale": "ko",
+  "translationSchemaVersion": "site-copy-v1",
+  "translationSource": "deepl",
+  "translatedAt": "2026-11-03T09:36:36.829Z"
+}

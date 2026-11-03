@@ -1,0 +1,11 @@
+{
+  "tagline": "您的博客由 gitblog 提供支持。",
+  "description": "Gitblog 是一个基于 GitHub 的博客平台，让任何人都能轻松创建和管理自己的博客。凭借简单的设置和灵活的自定义功能，您可以打造属于自己的空间，向全世界分享您的知识、经验和想法。",
+  "footer": "由 gitblog 提供支持",
+  "locale": "zh-hans",
+  "sourceHash": "e61a84eafbcc292494b2d7186362637dfd8fe99e509f9307ace023a1a098f159",
+  "sourceLocale": "ko",
+  "translationSchemaVersion": "site-copy-v1",
+  "translationSource": "deepl",
+  "translatedAt": "2026-11-03T09:36:41.570Z"
+}

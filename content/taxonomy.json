@@ -7,7 +7,17 @@
       "source": "Design",
       "labels": {
         "ko": "디자인",
-        "en": "Design"
+        "en": "Design",
+        "ar": "التصميم",
+        "de": "Design",
+        "es": "Diseño",
+        "fr": "Conception",
+        "it": "Design",
+        "ja": "デザイン",
+        "pt": "Design",
+        "pt-br": "Design",
+        "zh-hans": "设计",
+        "zh-hant": "設計"
       },
       "aliases": []
     },
@@ -16,7 +26,17 @@
       "source": "Development",
       "labels": {
         "ko": "개발",
-        "en": "Development"
+        "en": "Development",
+        "ar": "التطوير",
+        "de": "Entwicklung",
+        "es": "Desarrollo",
+        "fr": "Développement",
+        "it": "Sviluppo",
+        "ja": "開発",
+        "pt": "Desenvolvimento",
+        "pt-br": "Desenvolvimento",
+        "zh-hans": "开发",
+        "zh-hant": "開發"
       },
       "aliases": []
     },
@@ -25,7 +45,17 @@
       "source": "Essays",
       "labels": {
         "ko": "에세이",
-        "en": "Essays"
+        "en": "Essays",
+        "ar": "المقالات",
+        "de": "Essays",
+        "es": "Ensayos",
+        "fr": "Essais",
+        "it": "Saggi",
+        "ja": "エッセイ",
+        "pt": "Ensaios",
+        "pt-br": "Ensaios",
+        "zh-hans": "随笔",
+        "zh-hant": "散文"
       },
       "aliases": []
     },
@@ -34,7 +64,17 @@
       "source": "Notes",
       "labels": {
         "ko": "노트",
-        "en": "Notes"
+        "en": "Notes",
+        "ar": "ملاحظات",
+        "de": "Anmerkungen",
+        "es": "Notas",
+        "fr": "Remarques",
+        "it": "Nota",
+        "ja": "注記",
+        "pt": "Notas",
+        "pt-br": "Notas",
+        "zh-hans": "注释",
+        "zh-hant": "注意事項"
       },
       "aliases": []
     }
@@ -45,7 +85,17 @@
       "source": "Astro",
       "labels": {
         "ko": "Astro",
-        "en": "Astro"
+        "en": "Astro",
+        "ar": "Astro",
+        "de": "Astro",
+        "es": "Astro",
+        "fr": "Astro",
+        "it": "Astro",
+        "ja": "Astro",
+        "pt": "Astro",
+        "pt-br": "Astro",
+        "zh-hans": "Astro",
+        "zh-hant": "Astro"
       },
       "aliases": []
     },
@@ -54,7 +104,17 @@
       "source": "개발",
       "labels": {
         "ko": "개발",
-        "en": "Development"
+        "en": "Development",
+        "ar": "التطوير",
+        "de": "Entwicklung",
+        "es": "Desarrollo",
+        "fr": "Développement",
+        "it": "Sviluppo",
+        "ja": "開発",
+        "pt": "Desenvolvimento",
+        "pt-br": "Desenvolvimento",
+        "zh-hans": "开发",
+        "zh-hant": "开发"
       },
       "aliases": []
     },
@@ -63,7 +123,17 @@
       "source": "기록",
       "labels": {
         "ko": "기록",
-        "en": "Notes"
+        "en": "Notes",
+        "ar": "السجل",
+        "de": "Aufzeichnungen",
+        "es": "Registro",
+        "fr": "Archives",
+        "it": "Archivio",
+        "ja": "記録",
+        "pt": "Registo",
+        "pt-br": "Registros",
+        "zh-hans": "记录",
+        "zh-hant": "记录"
       },
       "aliases": []
     },
@@ -72,7 +142,17 @@
       "source": "디자인",
       "labels": {
         "ko": "디자인",
-        "en": "Design"
+        "en": "Design",
+        "ar": "التصميم",
+        "de": "Design",
+        "es": "Diseño",
+        "fr": "Design",
+        "it": "Design",
+        "ja": "デザイン",
+        "pt": "Design",
+        "pt-br": "Design",
+        "zh-hans": "设计",
+        "zh-hant": "設計"
       },
       "aliases": []
     },
@@ -81,7 +161,17 @@
       "source": "생각",
       "labels": {
         "ko": "생각",
-        "en": "Thoughts"
+        "en": "Thoughts",
+        "ar": "أفكار",
+        "de": "Gedanken",
+        "es": "Reflexiones",
+        "fr": "Réflexions",
+        "it": "Pensieri",
+        "ja": "考え",
+        "pt": "Reflexões",
+        "pt-br": "Reflexões",
+        "zh-hans": "思考",
+        "zh-hant": "思考"
       },
       "aliases": []
     },
@@ -90,7 +180,17 @@
       "source": "아키텍처",
       "labels": {
         "ko": "아키텍처",
-        "en": "Architecture"
+        "en": "Architecture",
+        "ar": "الهندسة المعمارية",
+        "de": "Architektur",
+        "es": "Arquitectura",
+        "fr": "Architecture",
+        "it": "Architettura",
+        "ja": "アーキテクチャ",
+        "pt": "Arquitetura",
+        "pt-br": "Arquitetura",
+        "zh-hans": "架构",
+        "zh-hant": "架構"
       },
       "aliases": []
     },
@@ -99,7 +199,17 @@
       "source": "웹",
       "labels": {
         "ko": "웹",
-        "en": "Web"
+        "en": "Web",
+        "ar": "الويب",
+        "de": "Web",
+        "es": "Web",
+        "fr": "Web",
+        "it": "Web",
+        "ja": "ウェブ",
+        "pt": "Web",
+        "pt-br": "Web",
+        "zh-hans": "网络",
+        "zh-hant": "網頁"
       },
       "aliases": []
     },
@@ -108,7 +218,17 @@
       "source": "접근성",
       "labels": {
         "ko": "접근성",
-        "en": "Accessibility"
+        "en": "Accessibility",
+        "ar": "إمكانية الوصول",
+        "de": "Barrierefreiheit",
+        "es": "Accesibilidad",
+        "fr": "Accessibilité",
+        "it": "Accessibilità",
+        "ja": "アクセシビリティ",
+        "pt": "Acessibilidade",
+        "pt-br": "Acessibilidade",
+        "zh-hans": "无障碍访问",
+        "zh-hant": "無障礙性"
       },
       "aliases": []
     },
@@ -117,7 +237,17 @@
       "source": "타이포그래피",
       "labels": {
         "ko": "타이포그래피",
-        "en": "Typography"
+        "en": "Typography",
+        "ar": "علم الطباعة",
+        "de": "Typografie",
+        "es": "Tipografía",
+        "fr": "Typographie",
+        "it": "Tipografia",
+        "ja": "タイポグラフィ",
+        "pt": "Tipografia",
+        "pt-br": "Tipografia",
+        "zh-hans": "排版",
+        "zh-hant": "排版學"
       },
       "aliases": []
     }

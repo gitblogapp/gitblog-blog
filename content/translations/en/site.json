@@ -1,5 +1,11 @@
 {
-  "tagline": "Engineering ideas.\nBuilding better products.",
-  "description": "Stories about the technology, design, and decisions behind the products we build.",
-  "footer": "Sharing what we learn. Building what comes next."
+  "tagline": "Your own blog, powered by gitblog.",
+  "description": "Gitblog is a GitHub-powered blogging platform that makes it easy for anyone to create and manage their own blog. With simple setup and flexible customization, you can build your own space to share your knowledge, experiences, and ideas with the world.",
+  "footer": "Powered by gitblog",
+  "locale": "en",
+  "sourceHash": "e61a84eafbcc292494b2d7186362637dfd8fe99e509f9307ace023a1a098f159",
+  "sourceLocale": "ko",
+  "translationSchemaVersion": "site-copy-v1",
+  "translationSource": "deepl",
+  "translatedAt": "2026-11-03T09:36:33.839Z"
 }
