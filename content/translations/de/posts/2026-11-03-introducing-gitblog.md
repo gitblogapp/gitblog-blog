@@ -9,37 +9,38 @@ description: >-
   Grundsätze von Gitblog vor und zeigen Ihnen, wie Sie einen Blog starten
   können.
 date: '2026-11-03T19:00:00+09:00'
-published: false
+published: true
 category: Manual
 tags:
   - gitblog
   - 사용법
 locale: de
 sourcePath: content/posts/2026-11-03-introducing-gitblog.md
-sourceHash: ae6300517c6dcbbba87b7dfd95feecc0119ced0b194d83b9c6de02c9e4e0f45b
+sourceHash: 13c15d5c3b84c5fbdf606fcdc5f7c99e4a899fac4004966fc72874ddfd92c3c7
 sourceLocale: ko
 translationSchemaVersion: markdown-xml-v4
 translationSource: deepl
-translatedAt: '2026-11-03T16:09:43.453Z'
-updated: '2026-11-04T00:40:50+09:00'
+translatedAt: '2026-11-03T16:21:36.557Z'
+cover: /uploads/covers/introducing-gitblog-mascot.png
+updated: '2026-11-04T01:19:03+09:00'
 ---
 In einem Blog sammeln sich nicht nur Beiträge an. Auch der Prozess der Problemlösung, der Moment, in dem man etwas Neues gelernt hat, und die Sichtweise auf ein bestimmtes Thema bleiben darin erhalten. Mit der Zeit werden diese Aufzeichnungen zu einem wertvollen Schatz, der zeigt, worüber ich nachgedacht habe und wie ich mich verändert habe.
 
 Wo sollten diese Aufzeichnungen also aufbewahrt werden? Selbst wenn sich der Dienst, auf dem ich schreibe, ändert oder verschwindet, sollte ich sie doch weiterhin speichern und verwalten können, oder?
 
-**Gitblog ist ein Dienst, mit dem man öffentliche Beiträge und den Blog-Code in seinem GitHub-Repository speichern und Beiträge über das Web oder einen KI-Agenten verfassen und auf dem eigenen Blog veröffentlichen kann.** Auf der Grundlage, dass man selbst Eigentümer seiner Beiträge ist und diese verwaltet, wurden Funktionen für bequemes Schreiben und die Interaktion mit Lesern hinzugefügt.
+**Gitblog ist ein Dienst, mit dem man öffentliche Beiträge und den Blog-Code in seinem GitHub-Repository speichern und Beiträge über das Web oder einen KI-Agenten verfassen und auf dem eigenen Blog veröffentlichen kann.** Auf der Grundlage, dass man selbst Eigentümer seiner Beiträge ist und diese verwaltet, wurden Funktionen für bequemes Schreiben und die Ansprache von Lesern hinzugefügt.
 
 Die Entwicklung von Gitblog basiert auf fünf Grundgedanken.
 
 ## 1. Ich sollte Eigentümer meiner Beiträge sein und diese selbst verwalten können
 
-Je länger man Beiträge schreibt, desto wichtiger wird die Gewissheit, dass man diese jederzeit wieder hervorholen und einsehen kann. Wir sind der Meinung, dass Autoren ihre eigenen Aufzeichnungen selbst speichern, bearbeiten und bei Bedarf an einen anderen Ort übertragen können sollten.
+Je länger man Beiträge schreibt, desto wichtiger wird die Gewissheit, dass man diese jederzeit wieder aufrufen kann. Wir sind der Meinung, dass Autoren ihre eigenen Aufzeichnungen selbst speichern, bearbeiten und bei Bedarf an einen anderen Ort verschieben können sollten.
 
-Die öffentlich zugänglichen Beiträge von Gitblog werden als Markdown-Dateien in meinem GitHub-Repository gespeichert. Auch Blog-Dateien, einschließlich Bilder, sowie Code können gemeinsam verwaltet werden. Wenn ich das Repository auf meinen PC herunterlade, kann ich die Beiträge lokal lesen, bearbeiten und sichern sowie über den Änderungsverlauf von Git frühere Versionen einsehen.
+Die öffentlich zugänglichen Beiträge von Gitblog werden als Markdown-Dateien in meinem GitHub-Repository gespeichert. Auch Blog-Dateien, einschließlich Bilder, und Code lassen sich gemeinsam verwalten. Wenn ich das Repository auf meinen PC herunterlade, kann ich die Beiträge lokal lesen, bearbeiten und sichern sowie über den Änderungsverlauf von Git frühere Versionen einsehen.
 
 Selbst wenn der Gitblog-Dienst eingestellt wird, bleiben das Repository meines Kontos sowie die lokal gespeicherten Beiträge und der Blog-Code erhalten. Solange Hosting und Domain aufrechterhalten werden, kann das bereitgestellte statische Blog weiterhin angeboten werden, und bei Bedarf lassen sich die Dateien auf einen anderen Hosting-Anbieter übertragen. Allerdings hängen die von Gitblog angebotenen integrierten Funktionen wie die Suche und das Abonnieren vom Betrieb des Dienstes ab.
 
-Dies ist auch der Grund, warum wir uns für eine Lösung auf GitHub-Basis entschieden haben. Viele Nutzer verwenden GitHub bereits, und es bietet die Grundlage, um über öffentliche Repositorys und GitHub Pages einen Blog zu starten. Auch mit GitHub Free können Sie das Pages-Hosting für öffentliche Repositorys nutzen. Der Umfang des Angebots und die Nutzungsbeschränkungen richten sich nach den [Richtlinien von GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+Dies ist auch der Grund, warum wir uns für eine Lösung auf GitHub-Basis entschieden haben. Viele Menschen nutzen GitHub bereits, und es bietet die Grundlage, um über öffentliche Repositories und GitHub Pages einen Blog zu starten. Auch bei GitHub Free steht das Hosting von Pages für öffentliche Repositories zur Verfügung. Der Umfang des Angebots und die Nutzungsbeschränkungen richten sich nach den [Richtlinien von GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
 Egal, wo man einen Beitrag verfasst – man soll immer die Kontrolle über das Original des öffentlichen Beitrags behalten. Das ist das oberste Prinzip von Gitblog.
 
@@ -47,7 +48,7 @@ Egal, wo man einen Beitrag verfasst – man soll immer die Kontrolle über das O
 
 Das Schreiben mit KI wird immer selbstverständlicher. Man erstellt Entwürfe aus Notizen, strukturiert komplexe Inhalte, feilt an Sätzen und übersetzt in andere Sprachen. So wie Programmier-Agenten die Dateien eines Projekts lesen und bearbeiten, sollten auch Agenten, die beim Schreiben helfen, direkt mit den Dateien des Blogs arbeiten können.
 
-Das Blog-Repository von Gitblog enthält Richtlinien und Befehle zum Verfassen, Übersetzen und Überprüfen, auf die KI-Agenten zurückgreifen können. Wenn ich mein Blog-Repository als Arbeitsbereich für einen Agenten festlege, der lokale Dateien lesen, bearbeiten und Befehle ausführen kann, kann ich in dieser Umgebung Entwürfe erstellen und die Veröffentlichung vorbereiten. Sofern die erforderlichen Authentifizierungen und Berechtigungen vorliegen, kann dies sogar bis zur Veröffentlichung führen.
+Das Blog-Repository von Gitblog enthält Richtlinien und Befehle zum Verfassen, Übersetzen und Überprüfen, auf die KI-Agenten zurückgreifen können. Wenn ich mein Blog-Repository als Arbeitsobjekt für einen Agenten festlege, der lokale Dateien lesen, bearbeiten und Befehle ausführen kann, kann ich in dieser Umgebung Entwürfe erstellen und die Veröffentlichung vorbereiten. Sofern die erforderlichen Authentifizierungen und Berechtigungen vorliegen, kann dies sogar bis zur Veröffentlichung führen.
 
 Beispielsweise könnte ich folgende Anfrage stellen:
 
@@ -55,11 +56,11 @@ Beispielsweise könnte ich folgende Anfrage stellen:
 
 Nach Abschluss der Überprüfung können Sie anschließend die Übersetzung, Überprüfung und Veröffentlichung anfordern. Die möglichen Aufgaben hängen vom Dateizugriffsbereich und den Befehlsausführungsberechtigungen des verwendeten Agenten ab. Der konkrete Ablauf ist in der [Anleitung zum Verfassen und Übersetzen von Blogbeiträgen](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/authoring.md) zusammengefasst.
 
-Gitblog schreibt nicht vor, dass Beiträge mit einem bestimmten KI-Modell erstellt werden müssen. Du kannst direkt im Web schreiben, einen vertrauten Editor verwenden oder mit KI zusammenarbeiten. Unser Ziel ist es, dass Autoren die Werkzeuge wählen können, die zu ihrer Arbeitsweise passen.
+Gitblog schreibt nicht vor, dass Beiträge mit einem bestimmten KI-Modell erstellt werden müssen. Du kannst direkt im Web schreiben, einen vertrauten Editor verwenden oder mit KI zusammenarbeiten. Unser Ziel ist es, dass Autoren die Werkzeuge wählen können, die am besten zu ihrer Arbeitsweise passen.
 
 ## 3. Gute Beiträge müssen über Sprach- und Toolgrenzen hinweg entdeckt werden können
 
-Nachdem ein Beitrag veröffentlicht wurde, muss er von jemandem entdeckt und gelesen werden. Manche suchen in Suchmaschinen nach Antworten, andere stellen Fragen an KI-Dienste und stoßen so auf relevante Inhalte. Es gibt auch Leser, die eine andere Sprache sprechen als die, in der der Beitrag verfasst wurde.
+Nachdem ein Beitrag veröffentlicht wurde, muss er von jemandem entdeckt und gelesen werden. Manche suchen in Suchmaschinen nach Antworten, andere stoßen durch Fragen an KI-Dienste auf relevante Inhalte. Es gibt auch Leser, die eine andere Sprache sprechen als die, in der der Beitrag verfasst wurde.
 
 Gitblog bietet eine Struktur für mehrsprachige Veröffentlichungen sowie für die Suche und den Zugriff über KI, um diese Leser zu erreichen.
 
@@ -68,7 +69,7 @@ Zunächst können Sie den Originaltext, den Sie in der Ihnen vertrauten Sprache 
 Außerdem wurden die Vorlagen so gestaltet, dass Suchmaschinen und KI-Tools den Inhalt und die Quelle der Texte erfassen können.
 
 - **Seiteninformationen für die Suche:** Es werden Titel, Beschreibung, URL des Originaltextes, Sitemap sowie Links zu den Seiten in den verschiedenen Sprachen bereitgestellt.
-- **Struktur zur Erläuterung des Kontexts des Artikels:** Es werden strukturierte Daten wie Autor und Veröffentlichungsdatum bereitgestellt; bei Bedarf können Kernantworten, Quellen sowie Fragen und Antworten hinzugefügt werden.
+- **Struktur zur Erläuterung des Kontexts des Beitrags:** Es werden strukturierte Daten wie Autor und Veröffentlichungsdatum bereitgestellt, und bei Bedarf können Kernantworten, Quellen sowie Fragen und Antworten hinzugefügt werden.
 - **Direkter Zugriff auf den Text:** Je nach Einstellung werden die Markdown-Version des öffentlichen Beitrags und die Beitragsliste „`llms.txt`“ bereitgestellt.
 
 Das Design berücksichtigt die Auffindbarkeit in Such-, Antwort- und generativen KI-Umgebungen, die häufig als SEO, AEO und GEO bezeichnet werden. Ziel ist es, den Textkörper und den Kontext des Beitrags leicht lesbar darzustellen. Die Platzierung in Suchergebnissen oder die Zitierung in KI-Antworten wird von den jeweiligen Diensten festgelegt und kann nicht allein durch Übersetzungen oder technische Einstellungen gewährleistet werden. [Anleitung zur Suche und zum Zugriff über KI](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/ai-discovery.md).
@@ -83,9 +84,9 @@ Wenn man einen guten Beitrag liest, wird man neugierig auf den nächsten Beitrag
 
 Bei Gitblog führt dieses Interesse auch zu einer Verbindung auf GitHub. **Das Abonnieren eines Blogs ist mit einem GitHub-Star für das entsprechende Repository verknüpft, und das Folgen eines Autors entspricht einem „Follow“ auf dem GitHub-Konto.** Leser können Beiträge von Blogs oder Autoren, die sie interessieren, sammeln, und Autoren können über ihre Beiträge auch auf GitHub mit Lesern in Kontakt treten.
 
-Das mag trivial erscheinen, aber wir halten diese Verbindung für bedeutsam. Denn zu dem Bild, das sich durch Code und Projekte ergibt, kommen noch Beiträge und Gedanken hinzu. Beiträge, in denen Entscheidungen im Projekt, der Lösungsweg bei Problemen oder gewonnene Erkenntnisse erläutert werden, bieten einen weiteren Zugang zum Verständnis der Arbeit dieser Person.
+Das mag trivial erscheinen, aber wir halten diese Verbindung für bedeutsam. Denn zu dem Bild, das sich durch Code und Projekte ergibt, kommen noch Texte und Gedanken hinzu. Beiträge, in denen Entscheidungen im Projekt, der Lösungsweg bei Problemen oder gewonnene Erkenntnisse erläutert werden, bieten einen weiteren Zugang zum Verständnis der Arbeit dieser Person.
 
-Die Anzahl der Stars oder Follower bestimmt nicht den Wert eines Beitrags. Doch die Tatsache, dass Leser, denen mein Beitrag gefallen hat, auf den nächsten Beitrag warten, kann ein Grund sein, regelmäßig zu schreiben.
+Die Anzahl der Stars oder Follower bestimmt nicht den Wert eines Beitrags. Die Tatsache jedoch, dass Leser, die sich mit meinen Beiträgen identifizieren, gespannt auf den nächsten Beitrag warten, kann ein Grund sein, regelmäßig zu schreiben.
 
 ## 5. Auch im Zeitalter der KI ist das Schreiben wichtig
 
@@ -121,11 +122,11 @@ Die Blog-Dateien werden in Ihrem GitHub-Repository erstellt. Für das Hosting k�
 
 Geben Sie auf der Beitragsseite in Studio den Titel, die Beschreibung und den Markdown-Text ein. Sie können auch ein Titelbild als Miniaturansicht sowie Bilder für den Text hochladen.
 
-Während des Schreibens können Sie den Beitrag als Entwurf speichern und erst nach Überprüfung des Inhalts als veröffentlichten Beitrag speichern. Nach dem Speichern können Sie den Fortschritt des Builds und der Bereitstellung verfolgen. Sobald die Bereitstellung abgeschlossen ist, können Sie den Beitrag in Ihrem Blog lesen. Falls eine Übersetzung erforderlich ist, können Sie die Übersetzungssprachen und deren Verwendung für den Blog festlegen und diese gemeinsam verwalten.
+Während des Schreibens können Sie den Beitrag als Entwurf speichern und erst nach Überprüfung des Inhalts als veröffentlichten Beitrag speichern. Nach dem Speichern können Sie den Fortschritt des Build- und Bereitstellungsprozesses verfolgen. Sobald die Bereitstellung abgeschlossen ist, können Sie den Beitrag in Ihrem Blog lesen. Falls eine Übersetzung erforderlich ist, können Sie die Übersetzungssprachen und deren Verwendung für Ihren Blog festlegen und diese gemeinsam verwalten.
 
 ### Erste Schritte mit GitHub und auf dem lokalen PC
 
-Wenn Sie mit einem lokalen Editor oder einem KI-Agenten arbeiten möchten, können Sie auf GitHub eine gewünschte offizielle Gitblog-Vorlage auswählen und direkt loslegen.
+Wenn Sie mit einem lokalen Editor oder einem KI-Agenten arbeiten möchten, können Sie auf GitHub eine offizielle Gitblog-Vorlage Ihrer Wahl auswählen und direkt loslegen.
 
 1. **Erstellen Sie mit einer Vorlage Ihr eigenes Blog-Repository.** Erstellen Sie auf der GitHub-Seite der gewünschten offiziellen Vorlage mithilfe dieser Vorlage ein neues öffentliches Repository in Ihrem Konto. Dabei wird ein Blog-Repository erstellt, das Sie selbst verwalten und das unabhängig von der Originalvorlage ist.
 2. **Klonen Sie Ihr Repository auf Ihren lokalen PC.** Führen Sie „`git clone`“ unter der Adresse des erstellten Repositorys aus und öffnen Sie den heruntergeladenen Ordner in einem Editor oder als Arbeitsobjekt eines KI-Agenten. Installieren Sie gemäß den Anweisungen der Vorlage die erforderlichen Entwicklungstools und Abhängigkeiten und nehmen Sie die Ersteinstellungen wie Blog-Adresse, Sprache und Hosting vor.
@@ -138,9 +139,9 @@ Auch einen direkt auf GitHub erstellten Blog können Sie verwalten, indem Sie de
 
 ## Beginnen Sie dort, wo Ihre Beiträge gespeichert werden
 
-Gitblog ist ein Blog, bei dem Ihre Beiträge in Ihrem Konto gespeichert werden, Sie mit vertrauten Tools schreiben können und Leser aus verschiedenen Sprachräumen und über unterschiedliche Wege erreichen können. Dahinter steht die Überzeugung, dass man durch das Schreiben seine eigenen Gedanken besser verstehen kann.
+Gitblog ist ein Blog, bei dem Ihre Beiträge in Ihrem Konto gespeichert werden, Sie mit vertrauten Tools schreiben können und Leser in verschiedenen Sprachen und über unterschiedliche Wege erreichen können. Dahinter steht die Überzeugung, dass man durch das Schreiben seine eigenen Gedanken besser verstehen kann.
 
-Es ist nicht nötig, von Anfang an perfekte Beiträge zu schreiben. Halten Sie doch einfach einmal eine Tatsache fest, die Sie heute neu erfahren haben, eine Frage, über die Sie schon lange nachgedacht haben, oder ein Problem, das Sie selbst gelöst haben. Der Prozess, diesen Eintrag mit Kontext anzureichern und weiter zu verfeinern, führt zu Ihrem nächsten Beitrag.
+Es ist nicht nötig, von Anfang an perfekte Beiträge zu schreiben. Halten Sie doch einfach einmal eine Tatsache fest, die Sie heute neu erfahren haben, eine Frage, über die Sie schon lange nachgedacht haben, oder ein Problem, das Sie selbst gelöst haben. Der Prozess, diesen Eintrag mit Kontext anzureichern und weiter zu verfeinern, führt zum nächsten Beitrag.
 
 **Sammeln Sie Ihre Gedanken auf einem Blog, das Ihnen gehört und das Sie selbst betreiben.**
 

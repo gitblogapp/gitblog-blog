@@ -5,28 +5,29 @@ title: >-
   gestire il proprio blog
 description: >-
   Archivia i tuoi articoli nel mio repository GitHub, scrivili con l’aiuto
-  dell’IA e raggiungi un pubblico più ampio. Ecco le cinque filosofie alla base
-  di Gitblog e come avviare il tuo blog.
+  dell’IA e entra in contatto con un pubblico più ampio. Ecco le cinque
+  filosofie alla base di Gitblog e come iniziare a scrivere sul blog.
 date: '2026-11-03T19:00:00+09:00'
-published: false
+published: true
 category: Manual
 tags:
   - gitblog
   - 사용법
 locale: it
 sourcePath: content/posts/2026-11-03-introducing-gitblog.md
-sourceHash: ae6300517c6dcbbba87b7dfd95feecc0119ced0b194d83b9c6de02c9e4e0f45b
+sourceHash: 13c15d5c3b84c5fbdf606fcdc5f7c99e4a899fac4004966fc72874ddfd92c3c7
 sourceLocale: ko
 translationSchemaVersion: markdown-xml-v4
 translationSource: deepl
-translatedAt: '2026-11-03T16:09:50.512Z'
-updated: '2026-11-04T00:40:50+09:00'
+translatedAt: '2026-11-03T16:21:43.610Z'
+cover: /uploads/covers/introducing-gitblog-mascot.png
+updated: '2026-11-04T01:19:03+09:00'
 ---
 Sul blog non si accumulano solo i post. Rimangono anche il percorso seguito per risolvere un problema, i momenti in cui ho imparato qualcosa di nuovo e il mio punto di vista su un determinato argomento. Con il passare del tempo, queste tracce diventano una risorsa che mostra su cosa ho riflettuto e come sono cambiato.
 
 Ma allora, dove dovrebbero essere conservati questi beni? Anche se il servizio su cui scrivevo dovesse cambiare o scomparire, non dovrei poter continuare a conservarli e gestirli?
 
-**Gitblog è un servizio che consente di archiviare i post pubblici e il codice del blog nel proprio repository GitHub e di pubblicare articoli sul proprio blog tramite il web o agenti di intelligenza artificiale.** Partendo dal presupposto di possedere e gestire direttamente i propri contenuti, abbiamo aggiunto funzionalità che facilitano la scrittura e consentono di entrare in contatto con i lettori.
+**Gitblog è un servizio che consente di archiviare i post pubblici e il codice del blog nel proprio repository GitHub, nonché di scrivere articoli tramite il web o agenti di intelligenza artificiale e pubblicarli sul proprio blog.** Partendo dal presupposto di possedere e gestire direttamente i propri contenuti, abbiamo aggiunto funzionalità che facilitano la scrittura e consentono di entrare in contatto con i lettori.
 
 La creazione di Gitblog nasce da cinque considerazioni fondamentali.
 
@@ -46,7 +47,7 @@ Potere conservare l’originale dei post pubblici, indipendentemente da dove ven
 
 Scrivere con l’aiuto dell’IA sta diventando sempre più naturale: si creano bozze partendo da appunti, si sintetizzano contenuti complessi, si perfezionano le frasi e si traduce in altre lingue. Proprio come un agente di programmazione legge e modifica i file di un progetto, riteniamo che anche un agente che assiste nella scrittura debba poter gestire direttamente i file del blog.
 
-Il repository del blog di Gitblog contiene linee guida e comandi relativi alla scrittura, alla traduzione e alla verifica a cui gli agenti di IA possono fare riferimento. Se si designa il proprio repository del blog come oggetto di lavoro per un agente in grado di leggere e modificare i file locali ed eseguire comandi, è possibile redigere bozze e preparare la pubblicazione in quell’ambiente. Se si dispone delle autorizzazioni e dei permessi necessari, è possibile procedere fino alla distribuzione.
+Il repository del blog di Gitblog contiene linee guida e comandi relativi alla scrittura, alla traduzione e alla verifica a cui gli agenti di IA possono fare riferimento. Se si designa il proprio repository del blog come oggetto di lavoro per un agente in grado di leggere e modificare i file locali ed eseguire comandi, è possibile redigere bozze e preparare la pubblicazione in quell’ambiente. Se si dispone delle credenziali e delle autorizzazioni necessarie, è possibile procedere fino alla distribuzione.
 
 Ad esempio, è possibile inviare una richiesta come questa:
 
@@ -54,7 +55,7 @@ Ad esempio, è possibile inviare una richiesta come questa:
 
 Una volta completata la revisione, è possibile richiedere la traduzione, la verifica e la distribuzione. Le operazioni possibili variano a seconda dell’ambito di accesso ai file e dei permessi di esecuzione dei comandi dell’agente utilizzato. Il flusso specifico è descritto nella [Guida alla scrittura e alla traduzione del blog](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/authoring.md).
 
-Gitblog non impone l’uso di un modello di IA specifico per la scrittura. Puoi scrivere direttamente sul web, utilizzare un editor che conosci bene o lavorare insieme all’IA. L’obiettivo è consentire all’autore di scegliere lo strumento più adatto al proprio modo di lavorare.
+Gitblog non impone l’uso di un modello di IA specifico per la stesura dei post. È possibile scrivere direttamente sul web, utilizzare un editor con cui si ha familiarità o lavorare insieme all’IA. L’obiettivo è consentire all’autore di scegliere lo strumento più adatto al proprio modo di lavorare.
 
 ## 3. Un buon articolo deve poter essere scoperto al di là della lingua e degli strumenti
 
@@ -78,7 +79,7 @@ Il nostro obiettivo è ampliare la possibilità che i contenuti che pubblichiamo
 
 ## 4. L’apprezzamento per un post porta a una connessione su GitHub
 
-Quando si legge un buon articolo, si è curiosi di scoprire anche il prossimo articolo dell’autore. Si finisce per cercare di capire che tipo di persona sia chi sta realizzando quel progetto e quali pensieri stia condividendo.
+Quando si legge un buon articolo, si è curiosi di scoprire anche il prossimo post dell’autore. Si finisce per cercare di capire che tipo di persona sia chi sta realizzando quel progetto e quali pensieri stia condividendo.
 
 Su Gitblog, questo interesse si traduce anche in una connessione su GitHub. **L’iscrizione a un blog è collegata alle stelle (Star) su GitHub del relativo repository, mentre seguire un autore equivale a seguirlo sul proprio account GitHub.** I lettori possono raccogliere i post dei blog o degli autori che li interessano, mentre gli autori possono connettersi con i lettori anche su GitHub attraverso i propri contenuti.
 
@@ -108,7 +109,7 @@ Accedete a [Gitblog](https://gitblog.app/ko) e registratevi o effettuate l’acc
 
 ### 2. Collegare l’app GitHub e creare il blog
 
-Seguendo le istruzioni di Studio, installate l’app Gitblog su GitHub e autorizzate l’accesso al repository per la gestione del blog. Visualizzate in anteprima i modelli, sceglietene uno, quindi stabilite il titolo del blog e il nome del repository.
+Seguendo le istruzioni di Studio, installare l’app Gitblog su GitHub e autorizzare l’accesso al repository per la gestione del blog. Visualizzare in anteprima i modelli e selezionarne uno, quindi definire il titolo del blog e il nome del repository.
 
 ![Schermata di anteprima e selezione dei modelli di blog basati su Svelte, Astro, React e Vanilla HTML in Gitblog Studio (versione inglese).](/uploads/introducing-gitblog/templates-en.jpg)
 
@@ -127,8 +128,8 @@ Durante la scrittura, è possibile salvare come bozza e, dopo aver rivisto il co
 Se desideri lavorare con un editor locale o un agente AI, puoi scegliere il modello ufficiale Gitblog che preferisci su GitHub e iniziare direttamente.
 
 1. **Crea il repository del tuo blog utilizzando un modello.** Dalla pagina GitHub del modello ufficiale che preferisci, utilizza il modello per creare un nuovo repository pubblico sul tuo account. Verrà creato un repository del blog che gestirai tu, separato dal modello originale.
-2. **Clonate il vostro repository sul PC locale.** Eseguite `git clone` utilizzando l’indirizzo del repository creato, quindi aprite la cartella scaricata come progetto nell’editor o nell’agente AI. Seguite le istruzioni del modello per installare gli strumenti di sviluppo e le dipendenze necessarie, quindi completate le impostazioni iniziali quali l’indirizzo del blog, la lingua e l’hosting.
-3. **Scrivere e verificare i post in locale.** Scrivere un post in Markdown in `content/posts/` e aggiungere immagini. È possibile modificarlo direttamente oppure chiedere all’agente di leggere `AGENTS.md` e seguire le istruzioni di scrittura. Dopo aver rivisto la bozza, impostare lo stato su “Pubblicato” ed eseguire la procedura di verifica fornita dal modello.
+2. **Clonate il vostro repository sul PC locale.** Eseguite `git clone` utilizzando l’indirizzo del repository creato, quindi aprite la cartella scaricata come area di lavoro nell’editor o nell’agente AI. Seguite le istruzioni del modello per installare gli strumenti di sviluppo e le dipendenze necessarie, quindi completate le impostazioni iniziali quali l’indirizzo del blog, la lingua e l’hosting.
+3. Scrivere e verificare i post in locale. Scrivere un post in Markdown in `content/posts/` e aggiungere immagini. È possibile modificare direttamente il contenuto oppure chiedere all’agente di leggere `AGENTS.md` e seguire le istruzioni di scrittura. Dopo aver rivisto la bozza, impostare lo stato su “Pubblicato” ed eseguire la procedura di verifica fornita dal modello.
 4. **Caricare le modifiche su GitHub e distribuirle.** Una volta effettuato il commit del testo e delle immagini ed eseguito il push sul ramo di distribuzione, il flusso di lavoro GitHub Actions configurato genererà il blog e lo distribuirà sull’hosting selezionato. Verificare i risultati dell’esecuzione di Actions e controllare che le modifiche siano state applicate alla pagina del blog.
 
 La prima volta è necessario preparare l’ambiente di distribuzione seguendo la [Guida alla configurazione iniziale](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/setup.md) del modello scelto. Successivamente, è possibile proseguire con il flusso **scrittura in locale → revisione e verifica → commit e push → verifica della distribuzione**.
@@ -139,7 +140,7 @@ La prima volta è necessario preparare l’ambiente di distribuzione seguendo la
 
 Gitblog punta a creare un blog in cui i post vengono archiviati nel proprio account, si possono scrivere con strumenti familiari e raggiungere i lettori in diverse lingue e attraverso diversi canali. Alla base di tutto ciò c’è la convinzione che attraverso la scrittura sia possibile comprendere più a fondo i propri pensieri.
 
-Non è necessario scrivere un post perfetto fin dall’inizio. Provate a mettere per iscritto un fatto che avete scoperto oggi, una domanda su cui avete riflettuto a lungo o un problema che avete risolto personalmente. Il processo di aggiungere contesto a quella registrazione e di perfezionarla porterà al prossimo post.
+Non è necessario scrivere un post perfetto fin dall’inizio. Provate a mettere per iscritto un fatto che avete scoperto oggi, una domanda su cui avete riflettuto a lungo o un problema che avete risolto da soli. Il processo di arricchimento del contesto e di rifinitura di quella nota vi condurrà al prossimo post.
 
 **Costruisci il tuo pensiero su un blog di tua proprietà e gestito da te.**
 

@@ -8,19 +8,20 @@ description: >-
   conecte-se a mais leitores. Apresentamos as cinco filosofias que orientam o
   Gitblog e como começar seu blog.
 date: '2026-11-03T19:00:00+09:00'
-published: false
+published: true
 category: Manual
 tags:
   - gitblog
   - 사용법
 locale: pt-br
 sourcePath: content/posts/2026-11-03-introducing-gitblog.md
-sourceHash: ae6300517c6dcbbba87b7dfd95feecc0119ced0b194d83b9c6de02c9e4e0f45b
+sourceHash: 13c15d5c3b84c5fbdf606fcdc5f7c99e4a899fac4004966fc72874ddfd92c3c7
 sourceLocale: ko
 translationSchemaVersion: markdown-xml-v4
 translationSource: deepl
-translatedAt: '2026-11-03T16:09:55.169Z'
-updated: '2026-11-04T00:40:50+09:00'
+translatedAt: '2026-11-03T16:21:47.936Z'
+cover: /uploads/covers/introducing-gitblog-mascot.png
+updated: '2026-11-04T01:19:03+09:00'
 ---
 O que se acumula no blog não são apenas os textos. O processo de resolução de problemas, os momentos em que aprendi algo novo e as perspectivas sobre determinados temas também ficam registrados. Com o passar do tempo, esses registros se tornam um patrimônio que mostra o que me preocupava e como eu mudei.
 
@@ -38,7 +39,7 @@ Os posts públicos do Gitblog são armazenados como arquivos Markdown no seu rep
 
 **Mesmo que o serviço Gitblog seja descontinuado, o repositório da minha conta, as postagens armazenadas localmente e o código do blog permanecerão.** Se mantiver a hospedagem e o domínio, é possível continuar disponibilizando o blog estático publicado e, se necessário, transferir os arquivos para outra hospedagem. No entanto, os recursos de integração oferecidos pelo Gitblog, como navegação e assinaturas, dependem da operação do serviço.
 
-É por isso que escolhemos o GitHub como base. Muitas pessoas já o utilizam, e ele oferece uma base para começar um blog por meio de repositórios públicos e do GitHub Pages. Mesmo na versão gratuita do GitHub, é possível usar a hospedagem do Pages para repositórios públicos. O escopo e os limites de uso seguem a [política do GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+É por isso que escolhemos o GitHub como base. Muitas pessoas já o utilizam, e ele oferece a infraestrutura necessária para iniciar um blog por meio de repositórios públicos e do GitHub Pages. Mesmo na versão gratuita do GitHub, é possível usar a hospedagem do Pages para repositórios públicos. O escopo e os limites de uso seguem a [política do GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
 Não importa onde você escreva, é possível manter o original das postagens públicas sob seu controle. Esse é o primeiro princípio do Gitblog.
 
@@ -54,7 +55,7 @@ Por exemplo, você pode fazer a seguinte solicitação:
 
 Após concluir a revisão, você pode solicitar a tradução, a verificação e a distribuição. As tarefas possíveis variam de acordo com o escopo de acesso aos arquivos e as permissões de execução de comandos do agente utilizado. O fluxo específico está descrito no [Guia de redação e tradução de blogs](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/authoring.md).
 
-O Gitblog não obriga o uso de um modelo específico de IA para a redação. Você pode escrever diretamente na web, usar um editor com o qual esteja familiarizado ou trabalhar em conjunto com a IA. O objetivo é permitir que o autor escolha a ferramenta que melhor se adapte ao seu estilo de trabalho.
+O Gitblog não obriga o uso de um modelo específico de IA para a redação. Você pode escrever diretamente na web, usar um editor com o qual esteja familiarizado ou trabalhar em conjunto com a IA. O objetivo é permitir que o autor escolha a ferramenta que melhor se adapte ao seu estilo.
 
 ## 3. Um bom texto deve poder ser descoberto independentemente do idioma e da ferramenta
 
@@ -70,7 +71,7 @@ Além disso, os modelos foram equipados com os seguintes elementos básicos para
 - **Estrutura que explica o contexto do texto:** fornece dados estruturados, como autor e data de publicação, e permite adicionar, conforme necessário, respostas-chave, fontes, perguntas e respostas.
 - **Caminhos de acesso direto ao texto:** dependendo da configuração, fornece a versão em Markdown do artigo público e a lista de artigos `llms.txt`.
 
-Trata-se de um projeto que leva em consideração a visibilidade em ambientes de IA de busca, resposta e geração — comumente chamados de SEO, AEO e GEO. O objetivo é apresentar o corpo do texto e seu contexto de forma fácil de ler. A classificação nos resultados de busca ou as citações nas respostas de IA são determinadas por cada serviço e não são garantidas apenas por traduções ou configurações técnicas. [Guia de pesquisa e acesso à IA](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/ai-discovery.md).
+Trata-se de um projeto que leva em consideração a visibilidade em ambientes de IA de busca, resposta e geração — comumente chamados de SEO, AEO e GEO. O objetivo é apresentar o corpo do texto e seu contexto de forma fácil de ler. A classificação nos resultados de busca ou as citações nas respostas de IA são determinadas por cada serviço, não sendo garantidas apenas por traduções ou configurações técnicas. [Guia de pesquisa e acesso à IA](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/ai-discovery.md).
 
 Também é possível encontrar artigos dentro do Gitblog. Os artigos dos blogs participantes do feed passam por um processo de coleta e são exibidos nas telas de exploração, como “Artigos mais recentes”, “Artigos populares” e “Tendências”. O leitor pode encontrar artigos de seu interesse e acessar o blog do autor para lê-los.
 
@@ -90,11 +91,11 @@ O número de “Stars” ou de seguidores não determina o valor de um texto. No
 
 Escrevemos quando fazemos perguntas à IA. Explicamos o resultado desejado, organizamos as condições e, ao ler a resposta, fazemos novas perguntas. Mesmo quando a IA redige o prompt e o rascunho por nós, permanece o processo de decidir o que solicitar e quais resultados aceitar.
 
-Escrever também é um processo de reflexão sobre os próprios pensamentos. Ao redigir frases para explicar algo, percebemos lacunas em aspectos que achávamos conhecer. Passamos a buscar fundamentos, corrigir argumentos contraditórios e conectar o contexto para que outras pessoas possam entender.
+Escrever também é um processo de reflexão sobre os próprios pensamentos. Ao redigir frases para explicar algo, percebemos lacunas em aspectos que achávamos conhecer. Passamos a buscar fundamentos, corrigir argumentos contraditórios e conectar o contexto para que outras pessoas possam compreender.
 
 Mesmo que a IA assuma cada vez mais tarefas, procuramos não esquecer nosso papel como seres humanos: decidir o que consideramos importante e quais ações tomar. **Não perder de vista nossos próprios pensamentos e julgamentos, mesmo em textos escritos em conjunto com a IA** — esse é o tipo de escrita que buscamos.
 
-Espero que o Gitblog seja um espaço onde possamos continuar essa prática. Um espaço para explicar o que aprendemos com nossas próprias palavras, registrar experiências em um contexto significativo e, com o passar do tempo, reler esses textos para aprofundar nossas reflexões.
+Espero que o Gitblog seja um espaço onde possamos continuar essa prática. Um espaço para explicar o que aprendemos com nossas próprias palavras, registrar experiências em um contexto significativo e, com o passar do tempo, reler esses textos para desenvolver nossas ideias.
 
 Espero que a construção de bons textos se torne um processo de aprimoramento da própria inteligência.
 
@@ -120,7 +121,7 @@ Os arquivos do blog serão criados no seu repositório do GitHub. Para hospedage
 
 Na tela de redação do Studio, digite o título, a descrição e o corpo do texto em Markdown. Também é possível fazer o upload de uma imagem de capa para a miniatura do post e de imagens para o corpo do texto.
 
-Enquanto escreve, salve como rascunho e, após revisar o conteúdo, salve como publicado. Após salvar, verifique o andamento da compilação e da distribuição; quando a distribuição estiver concluída, você poderá ler a postagem no seu blog. Se for necessário traduzir, basta configurar os idiomas de tradução e as regras de uso do blog para gerenciá-lo em conjunto.
+Enquanto escreve, salve como rascunho e, após revisar o conteúdo, salve como publicado. Após salvar, verifique o andamento da compilação e da distribuição; quando a distribuição estiver concluída, você poderá ler a postagem no seu blog. Se for necessária uma tradução, basta configurar os idiomas de tradução e as formas de uso do blog para operá-lo em conjunto.
 
 ### Começando no GitHub e no seu computador
 
@@ -137,9 +138,9 @@ Mesmo um blog criado diretamente no GitHub pode ser gerenciado no Gitblog App, d
 
 ## Comece onde seus textos ficam guardados
 
-O Gitblog busca ser um blog que armazena seus textos em sua conta, permite que você os escreva com ferramentas familiares e alcança leitores em diferentes idiomas e canais. Na base disso está a crença de que, por meio da escrita, é possível compreender mais profundamente os próprios pensamentos.
+O Gitblog busca ser um blog que armazena seus textos na sua conta, permite que você os escreva com ferramentas com as quais está acostumado e alcança leitores em diferentes idiomas e canais. Na base disso está a crença de que, por meio da escrita, é possível compreender mais profundamente os próprios pensamentos.
 
-Não é preciso escrever um texto perfeito desde o início. Experimente registrar um fato que você descobriu hoje, uma questão sobre a qual vem refletindo há muito tempo ou um problema que você mesmo resolveu. O processo de adicionar contexto a esse registro e refiná-lo leva ao próximo texto.
+Não é preciso escrever um texto perfeito desde o início. Experimente registrar um fato que você descobriu hoje, uma questão sobre a qual vem refletindo há muito tempo ou um problema que você mesmo resolveu. O processo de adicionar contexto a esse registro e refiná-lo levará ao próximo texto.
 
 **Acumule seus pensamentos em um blog que você mesmo possui e administra.**
 
