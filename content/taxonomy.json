@@ -77,6 +77,25 @@
         "zh-hant": "注意事項"
       },
       "aliases": []
+    },
+    {
+      "id": "category-36bde66f289a35683683b041",
+      "source": "Manual",
+      "labels": {
+        "en": "Manual",
+        "ko": "매뉴얼",
+        "ar": "الدليل",
+        "de": "Handbuch",
+        "es": "Manual",
+        "fr": "Manuel",
+        "it": "Manuale",
+        "ja": "マニュアル",
+        "pt": "Manual",
+        "pt-br": "Manual",
+        "zh-hans": "手册",
+        "zh-hant": "手冊"
+      },
+      "aliases": []
     }
   ],
   "tags": [
@@ -248,6 +267,44 @@
         "pt-br": "Tipografia",
         "zh-hans": "排版",
         "zh-hant": "排版學"
+      },
+      "aliases": []
+    },
+    {
+      "id": "tag-0982872d51917068a8cc0e9d",
+      "source": "gitblog",
+      "labels": {
+        "en": "Gitblog",
+        "ko": "gitblog",
+        "ar": "gitblog",
+        "de": "Gitblog",
+        "es": "Gitblog",
+        "fr": "Gitblog",
+        "it": "Gitblog",
+        "ja": "gitblog",
+        "pt": "gitblog",
+        "pt-br": "gitblog",
+        "zh-hans": "gitblog",
+        "zh-hant": "Gitblog"
+      },
+      "aliases": []
+    },
+    {
+      "id": "tag-f08aa6724ab44510863064bd",
+      "source": "사용법",
+      "labels": {
+        "en": "How to Use",
+        "ko": "사용법",
+        "ar": "طريقة الاستخدام",
+        "de": "Anleitung",
+        "es": "Instrucciones de uso",
+        "fr": "Mode d'emploi",
+        "it": "Istruzioni per l'uso",
+        "ja": "使い方",
+        "pt": "Como utilizar",
+        "pt-br": "Como usar",
+        "zh-hans": "使用方法",
+        "zh-hant": "使用说明"
       },
       "aliases": []
     }
