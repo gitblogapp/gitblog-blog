@@ -17,11 +17,11 @@ tags:
   - 사용법
 locale: fr
 sourcePath: content/posts/2026-11-03-introducing-gitblog.md
-sourceHash: 873a10320749706aac03e61566ba2deb89215d2bbb07b613dbfd412af47adf4a
+sourceHash: a5ba671ebf0980bf10031b16232501ea82a52f4d437bc6c0f9ae1bdc0efe663d
 sourceLocale: ko
 translationSchemaVersion: markdown-xml-v4
 translationSource: deepl
-translatedAt: '2026-11-04T07:53:37.540Z'
+translatedAt: '2026-11-04T08:08:16.798Z'
 cover: /uploads/covers/introducing-gitblog-mascot.png
 updated: '2026-11-04T07:52:36.588Z'
 ---
@@ -49,7 +49,7 @@ Peu importe où vous rédigez vos articles, vous devez pouvoir conserver l’ori
 
 Écrire avec l’IA devient de plus en plus naturel. On crée des brouillons à partir de notes, on organise des contenus complexes, on peaufine des phrases et on traduit dans d’autres langues. Tout comme un agent de codage lit et modifie les fichiers d’un projet, nous pensons qu’un agent d’aide à la rédaction doit également pouvoir manipuler directement les fichiers du blog.
 
-Le dépôt de Gitblog contient des instructions et des commandes de rédaction, de traduction et de vérification auxquelles les agents IA peuvent se référer. En désignant mon dépôt de blog comme cible de travail pour un agent capable de lire et de modifier des fichiers locaux et d’exécuter des commandes, je peux rédiger un brouillon et préparer la publication dans cet environnement. Si je dispose des authentifications et des autorisations nécessaires, je peux même aller jusqu’à la mise en production.
+Le dépôt de Gitblog contient des instructions et des commandes de rédaction, de traduction et de vérification auxquelles les agents IA peuvent se référer. En désignant mon dépôt de blog comme cible de travail pour un agent capable de lire et de modifier des fichiers locaux et d’exécuter des commandes, je peux rédiger des brouillons et préparer la publication dans cet environnement. Si je dispose des authentifications et des autorisations nécessaires, je peux même aller jusqu’à la mise en production.
 
 Par exemple, je peux formuler la demande suivante :
 
@@ -65,17 +65,17 @@ Une fois un article publié, il faut que quelqu’un le découvre et le lise. Ce
 
 Gitblog fournit une infrastructure permettant de toucher ces lecteurs grâce à la publication multilingue et à l’accès via la recherche et l’IA.
 
-Tout d’abord, vous pouvez publier la version originale, rédigée dans la langue qui vous convient, traduite dans la langue de votre choix. La plateforme prend en charge la traduction automatique via l’API DeepL, ainsi que la publication de traductions révisées par des humains ou générées par un modèle de langage (LLM). Une clé API distincte est nécessaire pour la traduction automatique DeepL. Si vous gérez vous-même la traduction, un processus vous permet de vérifier que la traduction reste à jour lorsque le texte original est modifié.
+Tout d’abord, vous pouvez publier la traduction d’un texte original rédigé dans la langue de votre choix vers la langue de votre choix. La plateforme prend en charge la traduction automatique via l’API DeepL, ainsi que la publication de traductions révisées par des humains ou générées par un modèle de langage (LLM). Une clé API distincte est requise pour la traduction automatique DeepL. Si vous gérez vous-même les traductions, un processus vous permet de vérifier que la traduction reste à jour lorsque le texte original est modifié.
 
 De plus, afin que les moteurs de recherche et les outils d’IA puissent identifier le contenu et la source des articles, les modèles intègrent les éléments de base suivants :
 
 - **Informations sur la page pour la recherche :** elles fournissent le titre, la description, l’URL du texte original, le plan du site et des liens vers les pages dans chaque langue.
 - **Structure expliquant le contexte de l’article :** elle fournit des données structurées telles que l’auteur et la date de publication, et permet d’ajouter, si nécessaire, des réponses clés, des sources, ainsi que des questions et réponses.
-- Accès direct au texte : en fonction des paramètres, le système fournit la version Markdown des articles publics ainsi que la liste des articles `llms.txt`.
+- Accès direct au texte : selon les paramètres, le système fournit la version Markdown des articles publics ainsi que la liste des articles `llms.txt`.
 
 Cette conception tient compte de la visibilité dans les environnements de recherche, de réponse et d’IA générative, communément appelés SEO, AEO et GEO. L’objectif est de présenter le corps du texte et son contexte de manière lisible. Le classement dans les résultats de recherche ou la citation dans les réponses de l’IA sont déterminés par chaque service et ne sont pas garantis par la traduction ou les paramètres techniques seuls. [Guide d’accès à la recherche et à l’IA](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/ai-discovery.md).
 
-Il est également possible de découvrir des articles au sein même de Gitblog. Les articles des blogs participant au fil d’actualité sont collectés puis affichés dans les pages d’exploration telles que « Derniers articles », « Articles populaires » ou « Tendances ». Les lecteurs peuvent ainsi trouver des articles qui les intéressent et se rendre sur le blog de l’auteur pour les lire.
+Il est également possible de découvrir des articles au sein même de Gitblog. Les articles des blogs participant au flux sont collectés puis affichés dans les pages d’exploration telles que « Derniers articles », « Articles populaires » ou « Tendances ». Les lecteurs peuvent ainsi trouver des articles qui les intéressent et se rendre sur le blog de l’auteur pour les lire.
 
 Notre objectif est d’élargir les chances que les traces que nous laissons parviennent à ceux qui en ont besoin.
 
@@ -83,7 +83,7 @@ Notre objectif est d’élargir les chances que les traces que nous laissons par
 
 Lorsque l’on lit un bon article, on a envie de découvrir les prochains articles de l’auteur. On cherche alors à savoir sur quel projet il travaille et quelles réflexions il partage.
 
-Sur Gitblog, cet intérêt se traduit également par une connexion sur GitHub. **L’abonnement à un blog correspond à une « étoile » (Star) sur le dépôt GitHub correspondant, et le fait de suivre un auteur correspond à un « Follow » sur son compte GitHub.** Les lecteurs peuvent ainsi regrouper les articles des blogs ou des auteurs qui les intéressent, tandis que les auteurs peuvent, grâce à leurs publications, entrer en contact avec leurs lecteurs également sur GitHub.
+Sur Gitblog, cet intérêt se traduit également par une connexion sur GitHub. **L’abonnement à un blog correspond à une étoile (Star) sur le dépôt GitHub correspondant, et le fait de suivre un auteur correspond à un « Follow » sur son compte GitHub.** Les lecteurs peuvent ainsi regrouper les articles des blogs ou des auteurs qui les intéressent, tandis que les auteurs peuvent entrer en contact avec leurs lecteurs sur GitHub grâce à leurs publications.
 
 Cela peut sembler anodin, mais nous pensons que ce lien est significatif. En effet, les articles et les réflexions viennent compléter l’image que l’on se fait d’une personne à travers son code et ses projets. Les articles expliquant les décisions prises dans le cadre d’un projet, le processus de résolution des problèmes ou les enseignements tirés constituent un autre moyen de comprendre le travail de cette personne.
 
@@ -123,7 +123,7 @@ Les fichiers de votre blog sont créés dans votre dépôt GitHub. Pour l’héb
 
 Dans l’écran de rédaction de Studio, saisissez le titre, la description et le corps du texte au format Markdown. Vous pouvez également télécharger une image de couverture qui servira de vignette représentative de l’article, ainsi que des images à insérer dans le corps du texte.
 
-Pendant la rédaction, enregistrez votre article en tant que brouillon, puis, après avoir relu le contenu, enregistrez-le en tant que publication. Une fois l’enregistrement effectué, suivez la progression de la compilation et du déploiement ; dès que le déploiement est terminé, vous pouvez consulter votre article sur votre blog. Si une traduction est nécessaire, il suffit de configurer les langues de traduction et leur mode d’utilisation pour gérer les deux simultanément.
+Pendant la rédaction, enregistrez votre article en tant que brouillon, puis, après avoir relu le contenu, enregistrez-le en tant que publication. Une fois l’enregistrement effectué, suivez la progression de la compilation et du déploiement ; dès que le déploiement est terminé, vous pouvez consulter votre article sur votre blog. Si une traduction est nécessaire, il suffit de configurer les langues de traduction et leur mode d’utilisation pour gérer les deux en parallèle.
 
 ### Commencer sur GitHub et sur votre ordinateur
 

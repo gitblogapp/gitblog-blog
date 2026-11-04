@@ -4,9 +4,9 @@ title: >-
   Introdução ao Gitblog: como manter a propriedade dos meus artigos e gerir o
   meu blogue
 description: >-
-  Guarde os seus artigos no meu repositório do GitHub, escreva com a ajuda da IA
-  e alcance mais leitores. Apresentamos as cinco filosofias que orientam o
-  Gitblog e explicamos como começar um blogue.
+  Armazene os seus artigos no seu repositório do GitHub, escreva com a ajuda da
+  IA e alcance mais leitores. Apresentamos as cinco filosofias que orientam o
+  Gitblog e explicamos como começar o seu blogue.
 date: '2026-11-03T19:00:00+09:00'
 published: true
 tts: true
@@ -17,15 +17,15 @@ tags:
   - 사용법
 locale: pt
 sourcePath: content/posts/2026-11-03-introducing-gitblog.md
-sourceHash: 873a10320749706aac03e61566ba2deb89215d2bbb07b613dbfd412af47adf4a
+sourceHash: a5ba671ebf0980bf10031b16232501ea82a52f4d437bc6c0f9ae1bdc0efe663d
 sourceLocale: ko
 translationSchemaVersion: markdown-xml-v4
 translationSource: deepl
-translatedAt: '2026-11-04T07:53:43.306Z'
+translatedAt: '2026-11-04T08:08:22.034Z'
 cover: /uploads/covers/introducing-gitblog-mascot.png
 updated: '2026-11-04T07:52:36.588Z'
 ---
-O que se acumula num blogue não são apenas os artigos. Ficam também registados o processo de resolução de problemas, os momentos em que aprendi algo novo e a minha perspetiva sobre determinados temas. Com o passar do tempo, esses registos tornam-se um património que mostra o que me preocupava e como evoluí.
+O que fica registado num blogue não são apenas os artigos. Ficam também registados o processo de resolução de problemas, os momentos em que aprendi algo novo e a minha perspetiva sobre determinados temas. Com o passar do tempo, esses registos tornam-se um património que mostra o que me preocupava e como evoluí.
 
 Então, onde é que este património deve ficar guardado? Mesmo que o serviço onde escrevia mude ou desapareça, não deveria ser possível continuar a guardá-lo e a geri-lo?
 
@@ -35,7 +35,7 @@ A criação do Gitblog partiu de cinco princípios.
 
 ## 1. Devo poder possuir e gerir os textos que escrevo
 
-Quanto mais tempo escrevo, mais importante se torna a convicção de que poderei continuar a consultar esses textos. Acreditamos que o autor deve poder guardar, editar e, se necessário, transferir os seus registos para outro local.
+Quanto mais tempo se escreve, mais importante se torna a certeza de que se poderá continuar a consultar esses textos. Acreditamos que o autor deve poder guardar, editar e, se necessário, transferir os seus registos para outro local.
 
 Os artigos do Gitblog acessíveis ao público são guardados no meu repositório do GitHub como ficheiros Markdown. Também é possível gerir em conjunto os ficheiros do blogue, incluindo imagens, e o código. Ao descarregar o repositório para o meu computador, posso ler, editar e fazer cópias de segurança dos artigos localmente, bem como consultar o conteúdo anterior através do histórico de alterações do Git.
 
@@ -43,13 +43,13 @@ Os artigos do Gitblog acessíveis ao público são guardados no meu repositório
 
 É por isso que optámos por uma base no GitHub. Muitas pessoas já o utilizam e este fornece uma base para criar um blogue através de repositórios públicos e do GitHub Pages. Mesmo na versão gratuita do GitHub (GitHub Free), é possível utilizar a hospedagem do Pages para repositórios públicos. O âmbito de cobertura e os limites de utilização seguem as [políticas do GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
-Independentemente de onde se escreva, poder manter o original dos artigos públicos nas nossas mãos. Este é o primeiro princípio do Gitblog.
+Independentemente de onde se escreva, poder manter o original dos artigos públicos nas próprias mãos. Este é o primeiro princípio do Gitblog.
 
 ## 2. Deve ser um blogue onde também se possa utilizar IA
 
-Escrever com a ajuda da IA está a tornar-se cada vez mais natural. Criar rascunhos a partir de notas, organizar conteúdos complexos, aperfeiçoar frases e traduzir para outras línguas. Tal como os agentes de programação lêem e modificam os ficheiros de um projeto, consideramos que os agentes que auxiliam na escrita também devem poder lidar diretamente com os ficheiros do blogue.
+Escrever com a ajuda da IA está a tornar-se cada vez mais natural. Criar rascunhos a partir de notas, organizar conteúdos complexos, aperfeiçoar frases e traduzir para outras línguas. Tal como os agentes de programação lêem e modificam os ficheiros de um projeto, considero que os agentes que auxiliam na escrita também devem poder lidar diretamente com os ficheiros do blogue.
 
-O repositório do blogue do Gitblog inclui diretrizes e comandos de redação, tradução e verificação que os agentes de IA podem consultar. Se designar o repositório do meu blogue como alvo de trabalho para um agente capaz de ler e modificar ficheiros locais e executar comandos, é possível redigir rascunhos e preparar a publicação nesse ambiente. Se dispuser das credenciais e autorizações necessárias, é possível avançar até à publicação.
+O repositório do blogue do Gitblog inclui diretrizes e comandos de redação, tradução e verificação para consulta pelos agentes de IA. Ao designar o repositório do meu blogue como alvo de trabalho para um agente capaz de ler e modificar ficheiros locais e executar comandos, é possível redigir rascunhos e preparar a publicação nesse ambiente. Se dispuser das credenciais e autorizações necessárias, é possível avançar até à publicação.
 
 Por exemplo, pode fazer o seguinte pedido:
 
@@ -57,7 +57,7 @@ Por exemplo, pode fazer o seguinte pedido:
 
 Após concluir a revisão, pode solicitar a tradução, a verificação e a publicação. As tarefas possíveis variam consoante o âmbito de acesso aos ficheiros e as autorizações de execução de comandos do agente utilizado. O fluxo específico está descrito no [Guia de redação e tradução de blogs](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/authoring.md).
 
-O Gitblog não obriga a que os artigos sejam confiados a um modelo específico de IA. Pode escrever diretamente na Web, utilizar um editor com o qual esteja familiarizado ou trabalhar em conjunto com a IA. O objetivo é permitir que o autor escolha a ferramenta que melhor se adapte ao seu método de trabalho.
+O Gitblog não obriga a que os artigos sejam confiados a um modelo de IA específico. Pode escrever diretamente na Web, utilizar um editor com o qual esteja familiarizado ou trabalhar em conjunto com a IA. O objetivo é permitir que o autor escolha a ferramenta que melhor se adapta ao seu estilo de trabalho.
 
 ## 3. Um bom texto deve poder ser descoberto para além da língua e das ferramentas
 
@@ -69,7 +69,7 @@ Em primeiro lugar, é possível publicar o texto original, escrito no idioma com
 
 Além disso, os modelos incluem os seguintes elementos básicos para que os motores de busca e as ferramentas de IA possam identificar o conteúdo e a fonte do texto.
 
-- **Informações da página para pesquisa:** fornece o título, a descrição, o endereço do texto original, o mapa do site e ligações para as páginas em cada idioma.
+- **Informações da página para pesquisa:** fornece o título, a descrição, o URL do texto original, o mapa do site e ligações para as páginas em cada idioma.
 - **Estrutura que explica o contexto do artigo:** fornece dados estruturados, como o autor e a data de publicação, e permite adicionar, conforme necessário, respostas-chave, fontes, perguntas e respostas.
 - **Caminhos de acesso direto ao texto:** consoante as definições, disponibiliza a versão Markdown dos artigos públicos e a lista de artigos `llms.txt`.
 
@@ -83,7 +83,7 @@ O que pretendemos é ampliar a possibilidade de que os registos que deixamos che
 
 Quando lemos um bom artigo, ficamos curiosos em relação ao próximo artigo do autor. Passamos a procurar saber que tipo de projetos essa pessoa está a desenvolver e que tipo de pensamentos está a registar.
 
-No Gitblog, esse interesse traduz-se também numa ligação ao GitHub. **A subscrição de um blogue está associada a uma «estrela» (Star) no repositório correspondente do GitHub, e seguir um autor está associado à função «Seguir» (Follow) na conta do GitHub.** O leitor pode reunir os artigos de blogues ou autores que lhe interessam, e o autor pode estabelecer uma ligação com os leitores também no GitHub através dos seus registos.
+No Gitblog, esse interesse traduz-se também numa ligação ao GitHub. **A subscrição de um blogue está associada a uma «estrela» (Star) no GitHub do repositório correspondente, e seguir um autor está associado à função «Seguir» (Follow) na conta do GitHub.** O leitor pode reunir os artigos de blogues ou autores que lhe interessam, e o autor pode estabelecer uma ligação com o leitor também no GitHub através dos seus registos.
 
 Pode parecer insignificante, mas acreditamos que esta ligação é significativa. Isto porque aos aspetos revelados através do código e dos projetos se juntam os textos e as reflexões. Os textos que explicam as decisões tomadas num projeto, o processo de resolução de problemas e o que se aprendeu tornam-se mais um canal para compreender o trabalho dessa pessoa.
 
@@ -97,7 +97,7 @@ Escrever é também um processo de reflexão sobre os nossos próprios pensament
 
 Mesmo que a IA assuma cada vez mais tarefas, procuramos não esquecer o nosso papel como seres humanos: o de decidir o que consideramos importante e quais as ações a tomar. **Não perder de vista os nossos próprios pensamentos e julgamentos, mesmo nos textos escritos em conjunto com a IA** — é esse o tipo de escrita a que aspiramos.
 
-Espero que o Gitblog seja um espaço onde possamos continuar a praticar isso. Um espaço onde possamos explicar o que aprendemos com as nossas próprias palavras, registar as nossas experiências num contexto significativo e, com o passar do tempo, reler o que escrevemos para desenvolver as nossas ideias.
+Espero que o Gitblog seja um espaço onde possamos continuar a praticar isso. Um espaço onde possamos explicar o que aprendemos com as nossas próprias palavras, registar as nossas experiências num contexto significativo e, com o passar do tempo, relê-las para desenvolver as nossas ideias.
 
 Espero que a tarefa de acumular bons textos se torne um processo de aperfeiçoamento da nossa própria inteligência.
 
@@ -117,7 +117,7 @@ Seguindo as instruções do Studio, instale a aplicação Gitblog no GitHub e au
 
 *Ecrã de seleção de modelos no Studio em inglês. A partir de 3 de novembro de 2026.*
 
-Os ficheiros do blogue são criados no meu repositório do GitHub. Para a hospedagem, pode utilizar o GitHub Pages ou ligar a minha conta do Cloudflare para utilizar o Cloudflare Pages. Depois de concluir as configurações de publicação do método escolhido, estará pronto para publicar artigos.
+Os ficheiros do blogue são criados no meu repositório do GitHub. Para o alojamento, pode utilizar o GitHub Pages ou ligar a minha conta do Cloudflare para utilizar o Cloudflare Pages. Depois de concluir as configurações de publicação do método escolhido, estará pronto para publicar artigos.
 
 ### 3. Escrever e publicar um artigo em Markdown
 
