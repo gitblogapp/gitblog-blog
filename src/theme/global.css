@@ -349,6 +349,9 @@ a:hover {
   background: #eaf0fd;
   color: #315be8;
 }
+.hero-cover {
+  height: auto;
+}
 .cover-art[data-variant='1'] {
   background: #eef1f5;
   color: #465e80;
@@ -1307,7 +1310,7 @@ a:hover {
     margin-right: 8px;
   }
   .hero-visual {
-    align-self: stretch;
+    align-self: center;
     display: flex;
     align-items: center;
   }
@@ -1501,7 +1504,8 @@ a:hover {
     margin: 18px 0;
   }
   .hero-visual {
-    display: none;
+    display: block;
+    margin-top: 24px;
   }
   .hero .eyebrow {
     font-size: 8px;

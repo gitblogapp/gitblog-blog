@@ -45,9 +45,16 @@ const date = (value: string) =>
       <Icon name="arrow" />
     </a>
   </div>
-  <div class="hero-visual" aria-hidden="true">
-    <CoverArt hero />
-    <span class="diagram-caption">IDEAS INTO IMPACT</span>
+  <div class="hero-visual">
+    <img
+      class="cover-art hero-cover"
+      src={withBase(config, '/uploads/blog/gitblog-home-hero.webp')}
+      alt="Gitblog Official Blog"
+      width="1672"
+      height="941"
+      fetchpriority="high"
+      decoding="async"
+    />
   </div>
 </section>
 {featured && (
