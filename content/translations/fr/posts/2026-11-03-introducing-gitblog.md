@@ -9,7 +9,7 @@ description: >-
   fondamentaux de Gitblog et comment créer votre blog.
 date: '2026-11-03T19:00:00+09:00'
 published: true
-tts: true
+tts: false
 ttsVoice: ''
 category: Menual
 tags:
@@ -17,13 +17,13 @@ tags:
   - 사용법
 locale: fr
 sourcePath: content/posts/2026-11-03-introducing-gitblog.md
-sourceHash: a5ba671ebf0980bf10031b16232501ea82a52f4d437bc6c0f9ae1bdc0efe663d
+sourceHash: 6a6472f8cf99802eee3c012514d125c9cc597976e5cb55f53976f3120c011231
 sourceLocale: ko
 translationSchemaVersion: markdown-xml-v4
 translationSource: deepl
-translatedAt: '2026-11-04T08:08:16.798Z'
+translatedAt: '2026-11-04T08:20:10.555Z'
 cover: /uploads/covers/introducing-gitblog-mascot.png
-updated: '2026-11-04T07:52:36.588Z'
+updated: '2026-11-04T08:18:26.726Z'
 ---
 Ce ne sont pas seulement les articles qui s’accumulent sur un blog. Le processus de résolution d’un problème, les moments où l’on apprend quelque chose de nouveau, ainsi que le point de vue sur un sujet donné y sont également consignés. Avec le temps, ces traces deviennent un atout qui montre ce qui m’a préoccupé et comment j’ai évolué.
 
@@ -49,7 +49,7 @@ Peu importe où vous rédigez vos articles, vous devez pouvoir conserver l’ori
 
 Écrire avec l’IA devient de plus en plus naturel. On crée des brouillons à partir de notes, on organise des contenus complexes, on peaufine des phrases et on traduit dans d’autres langues. Tout comme un agent de codage lit et modifie les fichiers d’un projet, nous pensons qu’un agent d’aide à la rédaction doit également pouvoir manipuler directement les fichiers du blog.
 
-Le dépôt de Gitblog contient des instructions et des commandes de rédaction, de traduction et de vérification auxquelles les agents IA peuvent se référer. En désignant mon dépôt de blog comme cible de travail pour un agent capable de lire et de modifier des fichiers locaux et d’exécuter des commandes, je peux rédiger des brouillons et préparer la publication dans cet environnement. Si je dispose des authentifications et des autorisations nécessaires, je peux même aller jusqu’à la mise en production.
+Le dépôt de Gitblog contient des instructions et des commandes de rédaction, de traduction et de vérification auxquelles les agents IA peuvent se référer. En désignant mon dépôt de blog comme cible de travail pour un agent capable de lire et de modifier des fichiers locaux et d’exécuter des commandes, je peux rédiger un brouillon et préparer la publication dans cet environnement. Si je dispose des authentifications et des autorisations nécessaires, je peux même aller jusqu’à la mise en production.
 
 Par exemple, je peux formuler la demande suivante :
 
@@ -75,7 +75,7 @@ De plus, afin que les moteurs de recherche et les outils d’IA puissent identif
 
 Cette conception tient compte de la visibilité dans les environnements de recherche, de réponse et d’IA générative, communément appelés SEO, AEO et GEO. L’objectif est de présenter le corps du texte et son contexte de manière lisible. Le classement dans les résultats de recherche ou la citation dans les réponses de l’IA sont déterminés par chaque service et ne sont pas garantis par la traduction ou les paramètres techniques seuls. [Guide d’accès à la recherche et à l’IA](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/ai-discovery.md).
 
-Il est également possible de découvrir des articles au sein même de Gitblog. Les articles des blogs participant au flux sont collectés puis affichés dans les pages d’exploration telles que « Derniers articles », « Articles populaires » ou « Tendances ». Les lecteurs peuvent ainsi trouver des articles qui les intéressent et se rendre sur le blog de l’auteur pour les lire.
+Il est également possible de découvrir des articles au sein même de Gitblog. Les articles des blogs participant au fil d’actualité sont collectés puis affichés dans les pages d’exploration telles que « Derniers articles », « Articles populaires » ou « Tendances ». Les lecteurs peuvent ainsi trouver des articles qui les intéressent et se rendre sur le blog de l’auteur pour les lire.
 
 Notre objectif est d’élargir les chances que les traces que nous laissons parviennent à ceux qui en ont besoin.
 
@@ -123,7 +123,7 @@ Les fichiers de votre blog sont créés dans votre dépôt GitHub. Pour l’héb
 
 Dans l’écran de rédaction de Studio, saisissez le titre, la description et le corps du texte au format Markdown. Vous pouvez également télécharger une image de couverture qui servira de vignette représentative de l’article, ainsi que des images à insérer dans le corps du texte.
 
-Pendant la rédaction, enregistrez votre article en tant que brouillon, puis, après avoir relu le contenu, enregistrez-le en tant que publication. Une fois l’enregistrement effectué, suivez la progression de la compilation et du déploiement ; dès que le déploiement est terminé, vous pouvez consulter votre article sur votre blog. Si une traduction est nécessaire, il suffit de configurer les langues de traduction et leur mode d’utilisation pour gérer les deux en parallèle.
+Pendant la rédaction, enregistrez votre article en tant que brouillon, puis, après avoir relu le contenu, enregistrez-le en tant que publication. Une fois l’enregistrement effectué, suivez la progression de la compilation et du déploiement ; dès que le déploiement est terminé, vous pouvez consulter votre article sur votre blog. Si une traduction est nécessaire, il suffit de configurer les langues de traduction et leur mode d’utilisation pour gérer les deux simultanément.
 
 ### Commencer sur GitHub et sur votre ordinateur
 

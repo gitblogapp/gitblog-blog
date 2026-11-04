@@ -4,12 +4,12 @@ title: >-
   Introducción a Gitblog: cómo ser dueño de mis artículos y gestionar mi propio
   blog
 description: >-
-  Guarda tus artículos en tu repositorio de GitHub, escribe con la ayuda de la
+  Guarda tus artículos en mi repositorio de GitHub, escribe con la ayuda de la
   IA y conecta con más lectores. Te presentamos las cinco filosofías en las que
-  se basa Gitblog y cómo empezar tu propio blog.
+  se basa Gitblog y cómo empezar a escribir en tu blog.
 date: '2026-11-03T19:00:00+09:00'
 published: true
-tts: true
+tts: false
 ttsVoice: ''
 category: Menual
 tags:
@@ -17,19 +17,19 @@ tags:
   - 사용법
 locale: es
 sourcePath: content/posts/2026-11-03-introducing-gitblog.md
-sourceHash: a5ba671ebf0980bf10031b16232501ea82a52f4d437bc6c0f9ae1bdc0efe663d
+sourceHash: 6a6472f8cf99802eee3c012514d125c9cc597976e5cb55f53976f3120c011231
 sourceLocale: ko
 translationSchemaVersion: markdown-xml-v4
 translationSource: deepl
-translatedAt: '2026-11-04T08:08:14.810Z'
+translatedAt: '2026-11-04T08:20:08.108Z'
 cover: /uploads/covers/introducing-gitblog-mascot.png
-updated: '2026-11-04T07:52:36.588Z'
+updated: '2026-11-04T08:18:26.726Z'
 ---
 Lo que se acumula en un blog no son solo entradas. También quedan registrados el proceso de resolución de problemas, los momentos en los que he aprendido algo nuevo y mi perspectiva sobre determinados temas. Con el paso del tiempo, esos registros se convierten en un activo que muestra en qué me he estado planteando y cómo he cambiado.
 
 Entonces, ¿dónde debería conservarse este activo? Aunque el servicio en el que escribía cambiara o desapareciera, ¿no debería poder seguir conservándolo y gestionándolo?
 
-**Gitblog es un servicio que permite almacenar entradas públicas y el código del blog en mi repositorio de GitHub, así como redactar entradas a través de la web o de un agente de IA para publicarlas en mi blog.** Partiendo de la base de que uno es el propietario y gestor directo de sus entradas, hemos añadido funciones que facilitan la redacción y permiten llegar a los lectores.
+**Gitblog es un servicio que permite almacenar entradas públicas y el código del blog en mi repositorio de GitHub, así como redactar entradas a través de la web o de un agente de IA para publicarlas en mi blog.** Partiendo de la base de que uno es el propietario y administrador de sus propias entradas, hemos añadido funciones que facilitan la redacción y permiten llegar a los lectores.
 
 La creación de Gitblog parte de cinco ideas fundamentales.
 
@@ -39,7 +39,7 @@ Cuanto más tiempo se escriben entradas, más importante es la confianza en que 
 
 Las entradas públicas de Gitblog se almacenan como archivos Markdown en mi repositorio de GitHub. También se pueden gestionar conjuntamente los archivos del blog, incluidas las imágenes, y el código. Si descargo el repositorio a mi ordenador, puedo leer, modificar y hacer copias de seguridad de las entradas de forma local, además de consultar el contenido anterior a través del historial de cambios de Git.
 
-**Aunque el servicio de Gitblog dejara de existir, el repositorio de mi cuenta, las entradas guardadas localmente y el código del blog seguirían estando ahí.** Si mantengo el alojamiento y el dominio, podré seguir ofreciendo el blog estático publicado y, si es necesario, podré trasladar los archivos a otro alojamiento. Sin embargo, las funciones integradas que ofrece Gitblog, como la navegación y las suscripciones, dependen del funcionamiento del servicio.
+**Aunque el servicio de Gitblog dejara de existir, el repositorio de mi cuenta, las entradas guardadas localmente y el código del blog seguirían estando ahí.** Si mantengo el alojamiento y el dominio, podré seguir ofreciendo el blog estático publicado y, si es necesario, podré trasladar los archivos a otro proveedor de alojamiento. Sin embargo, las funciones integradas que ofrece Gitblog, como la navegación y las suscripciones, dependen del funcionamiento del servicio.
 
 Esta es precisamente la razón por la que hemos optado por basarnos en GitHub. Muchas personas ya lo utilizan y ofrece una base para crear un blog a través de repositorios públicos y GitHub Pages. Incluso con GitHub Free se puede utilizar el alojamiento de Pages para repositorios públicos. El alcance de los servicios y los límites de uso se rigen por [la política de GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
@@ -57,11 +57,11 @@ Por ejemplo, se puede realizar una solicitud como la siguiente:
 
 Una vez finalizada la revisión, puedes solicitar a continuación la traducción, la verificación y la publicación. Las tareas posibles varían en función del alcance de acceso a los archivos y los permisos de ejecución de comandos del agente que utilices. El flujo específico se detalla en la [Guía de redacción y traducción de blogs](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/authoring.md).
 
-Gitblog no obliga a utilizar un modelo de IA concreto para redactar los artículos. Puedes escribir directamente en la web, utilizar un editor con el que estés familiarizado o trabajar con la IA. El objetivo es que el autor pueda elegir la herramienta que mejor se adapte a su forma de trabajar.
+Gitblog no obliga a utilizar un modelo de IA concreto para redactar los artículos. Puedes escribir directamente en la web, utilizar un editor con el que estés familiarizado o trabajar con IA. El objetivo es que el autor pueda elegir la herramienta que mejor se adapte a su forma de trabajar.
 
 ## 3. Un buen artículo debe poder descubrirse más allá del idioma y las herramientas
 
-Una vez publicado un artículo, alguien debe encontrarlo y leerlo. Hay quienes buscan respuestas en los motores de búsqueda y quienes encuentran material relevante al plantear preguntas a servicios de IA. También hay lectores que leen en un idioma distinto al que tú utilizas.
+Una vez publicado un artículo, alguien debe descubrirlo y leerlo. Hay quienes buscan respuestas en los motores de búsqueda y quienes encuentran material relevante al plantear preguntas a servicios de IA. También hay lectores que leen en un idioma distinto al que tú utilizas.
 
 Gitblog ofrece una estructura que permite llegar a este tipo de lectores mediante la publicación multilingüe y el acceso a la búsqueda y la IA.
 
@@ -81,7 +81,7 @@ Lo que esperamos es ampliar la posibilidad de que los registros que dejamos lleg
 
 ## 4. La resonancia de una entrada se traduce en conexiones en GitHub
 
-Cuando lees una buena entrada, sientes curiosidad por la siguiente del autor. Te animas a averiguar qué tipo de proyectos está creando y qué ideas está compartiendo.
+Cuando lees una buena entrada, te entra curiosidad por conocer la siguiente del autor. Te animas a averiguar qué tipo de proyectos está creando y qué ideas está plasmando.
 
 En Gitblog, este interés se traduce también en una relación con GitHub. **La suscripción a un blog se vincula con las estrellas de GitHub de ese repositorio, y seguir al autor se vincula con la opción «Seguir» de su cuenta de GitHub.** El lector puede recopilar las entradas de los blogs o autores que le interesan, y el autor puede conectar con los lectores también a través de GitHub gracias a sus publicaciones.
 
@@ -113,11 +113,11 @@ Accede a [Gitblog](https://gitblog.app/ko) y regístrate o inicia sesión con tu
 
 Sigue las instrucciones de Studio para instalar la aplicación Gitblog en GitHub y autoriza el acceso al repositorio en el que gestionarás el blog. Echa un vistazo a las plantillas, elige una y, a continuación, establece el título del blog y el nombre del repositorio.
 
-![Pantalla de Gitblog Studio en inglés donde se pueden previsualizar y seleccionar plantillas de blog basadas en Svelte, Astro, React y HTML puro.](/uploads/introducing-gitblog/templates-en.jpg)
+![Pantalla de Gitblog Studio (en inglés) en la que se pueden previsualizar y seleccionar plantillas de blog basadas en Svelte, Astro, React y HTML puro.](/uploads/introducing-gitblog/templates-en.jpg)
 
 *Pantalla de selección de plantillas de Studio en inglés. A fecha de 3 de noviembre de 2026.*
 
-Los archivos del blog se crean en tu repositorio de GitHub. Para el alojamiento, puedes utilizar GitHub Pages o conectar tu cuenta de Cloudflare para usar Cloudflare Pages. Una vez completada la configuración de la publicación según el método elegido, estarás listo para publicar entradas.
+Los archivos del blog se crean en tu repositorio de GitHub. Para el alojamiento, puedes utilizar GitHub Pages o conectar tu cuenta de Cloudflare para usar Cloudflare Pages. Una vez completada la configuración de publicación del método elegido, estarás listo para publicar entradas.
 
 ### 3. Escribir y publicar entradas en Markdown
 
@@ -129,14 +129,14 @@ Mientras escribes, guarda el borrador y, tras revisar el contenido, guárdalo co
 
 Si quieres trabajar con un editor local o un agente de IA, puedes elegir la plantilla oficial de Gitblog que prefieras en GitHub y empezar directamente.
 
-1. **Crea el repositorio de tu blog a partir de una plantilla.** En la página de GitHub de la plantilla oficial que elijas, utiliza la plantilla para crear un nuevo repositorio público en tu cuenta. Se creará un repositorio de blog que gestionarás tú, independiente de la plantilla original.
+1. **Crea el repositorio de tu blog a partir de una plantilla.** En la página de GitHub de la plantilla oficial que elijas, utiliza la plantilla para crear un nuevo repositorio público en tu cuenta. Se creará un repositorio del blog que gestionarás tú, independiente de la plantilla original.
 2. **Clona tu repositorio en tu ordenador local.** Ejecuta `git clone` con la dirección del repositorio creado y abre la carpeta descargada en tu editor o en el agente de IA para trabajar en ella. Sigue las instrucciones de la plantilla para instalar las herramientas de desarrollo y las dependencias necesarias, y completa la configuración inicial, como la dirección del blog, el idioma y el alojamiento.
 3. **Redacta y revisa las entradas de forma local.** Escribe entradas en Markdown en `content/posts/` y añade imágenes. Puedes editarlas directamente o pedirle al agente que lea `AGENTS.md` y siga las instrucciones de redacción. Tras revisar el borrador, cámbialo al estado «publicado» y ejecuta el procedimiento de validación que proporciona la plantilla.
 4. **Sube los cambios a GitHub y realiza la implementación.** Cuando comites el artículo y las imágenes y los envías (push) a la rama de implementación, el flujo de trabajo de GitHub Actions configurado compila el blog y lo implementa en el alojamiento seleccionado. Comprueba el resultado de la ejecución de Actions y si los cambios se han reflejado en la página real del blog.
 
-La primera vez, deberá preparar el entorno de distribución siguiendo la [Guía de configuración inicial](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/setup.md) de la plantilla elegida. A partir de entonces, podrá continuar escribiendo siguiendo el flujo: **redacción local → revisión y validación → confirmación y envío → verificación de la distribución**.
+La primera vez, deberá preparar el entorno de distribución siguiendo la [Guía de configuración inicial](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/setup.md) de la plantilla elegida. A partir de entonces, podrá continuar escribiendo siguiendo el flujo: **redacción local → revisión y validación → commit y push → verificación de la distribución**.
 
-Los blogs creados directamente en GitHub también se pueden gestionar en la aplicación Gitblog, siempre que se permita el acceso a ese repositorio y se utilice la función de conexión con blogs existentes de Studio. Solo tienes que elegir el método que mejor se adapte a tu trabajo: escribir en la web o escribir localmente.
+Los blogs creados directamente en GitHub también se pueden gestionar en la aplicación Gitblog, siempre que se permita el acceso a ese repositorio y se utilice la función de conexión con blogs existentes de Studio. Solo tienes que elegir el método que mejor se adapte a tu trabajo: escribir en la web o escribir de forma local.
 
 ## Empieza por el lugar donde se guardan tus entradas
 
@@ -146,4 +146,4 @@ No hace falta escribir un artículo perfecto desde el principio. Intenta anotar 
 
 **Acumula tus ideas en un blog que te pertenece y que gestionas tú mismo.**
 
-[Cómo crear mi propio blog en Gitblog](https://gitblog.app/studio)
+[Cómo crear tu propio blog en Gitblog](https://gitblog.app/studio)
