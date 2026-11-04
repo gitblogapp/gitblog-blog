@@ -101,18 +101,18 @@
       "id": "category-25bc5bd976d49be4fe0def26",
       "source": "Menual",
       "labels": {
-        "en": "Menu",
-        "ko": "메뉴",
-        "ar": "القائمة",
-        "de": "Menü",
-        "es": "Menú",
-        "fr": "Menu",
-        "it": "Menu",
-        "ja": "メニュー",
-        "pt": "Menu",
-        "pt-br": "Menu",
-        "zh-hans": "菜单",
-        "zh-hant": "選單"
+        "en": "Manual",
+        "ko": "매뉴얼",
+        "ar": "الدليل",
+        "de": "Handbuch",
+        "es": "Manual",
+        "fr": "Manuel",
+        "it": "Manuale",
+        "ja": "マニュアル",
+        "pt": "Manual",
+        "pt-br": "Manual",
+        "zh-hans": "手册",
+        "zh-hant": "手冊"
       },
       "aliases": []
     }
