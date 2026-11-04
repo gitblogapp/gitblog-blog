@@ -1,17 +1,20 @@
 ---
 id: f2c641a8-e850-4ae0-89a1-14ee48d9a1a2
-title: 'Gitblog 소개: 내 글을 소유하고, 내 블로그를 운영하는 방법'
-description: '내 GitHub 저장소에 글을 보관하고, AI와 함께 쓰고, 더 많은 독자와 연결하세요. Gitblog가 지향하는 다섯 가지 철학과 블로그를 시작하는 방법을 소개합니다.'
-date: '2026-11-03T19:00:00+09:00'
-updated: '2026-11-04T01:19:03+09:00'
+title: "Gitblog 소개: 내 글을 소유하고, 내 블로그를 운영하는 방법"
+description: 내 GitHub 저장소에 글을 보관하고, AI와 함께 쓰고, 더 많은 독자와 연결하세요. Gitblog가 지향하는 다섯
+  가지 철학과 블로그를 시작하는 방법을 소개합니다.
+date: 2026-11-03T19:00:00+09:00
+updated: 2026-11-04T07:52:36.588Z
 published: true
-category: Manual
+category: Menual
 tags:
   - gitblog
   - 사용법
 cover: /uploads/covers/introducing-gitblog-mascot.png
+tts: true
+ttsVoice: ""
+firstPublishedAt: 2026-11-03T19:00:00+09:00
 ---
-
 블로그에 쌓이는 것은 글만이 아닙니다. 문제를 해결한 과정, 새로운 것을 배운 순간, 어떤 주제를 바라보는 관점이 함께 남습니다. 시간이 지나면 그 기록은 내가 무엇을 고민하고 어떻게 달라졌는지 보여 주는 자산이 됩니다.
 
 그렇다면 이 자산은 어디에 남아야 할까요? 글을 쓰던 서비스가 바뀌거나 사라져도, 내가 계속 보관하고 운영할 수 있어야 하지 않을까요?
