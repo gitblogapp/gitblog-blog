@@ -9,23 +9,25 @@ description: >-
   Gitblog e como começar seu blog.
 date: '2026-11-03T19:00:00+09:00'
 published: true
-category: Manual
+tts: true
+ttsVoice: ''
+category: Menual
 tags:
   - gitblog
   - 사용법
 locale: pt-br
 sourcePath: content/posts/2026-11-03-introducing-gitblog.md
-sourceHash: 13c15d5c3b84c5fbdf606fcdc5f7c99e4a899fac4004966fc72874ddfd92c3c7
+sourceHash: 873a10320749706aac03e61566ba2deb89215d2bbb07b613dbfd412af47adf4a
 sourceLocale: ko
 translationSchemaVersion: markdown-xml-v4
 translationSource: deepl
-translatedAt: '2026-11-03T16:21:47.936Z'
+translatedAt: '2026-11-04T07:53:45.058Z'
 cover: /uploads/covers/introducing-gitblog-mascot.png
-updated: '2026-11-04T01:19:03+09:00'
+updated: '2026-11-04T07:52:36.588Z'
 ---
 O que se acumula no blog não são apenas os textos. O processo de resolução de problemas, os momentos em que aprendi algo novo e as perspectivas sobre determinados temas também ficam registrados. Com o passar do tempo, esses registros se tornam um patrimônio que mostra o que me preocupava e como eu mudei.
 
-Então, onde esse patrimônio deve ficar? Mesmo que o serviço em que eu escrevia mude ou desapareça, eu deveria poder continuar a armazená-lo e mantê-lo, não é mesmo?
+Então, onde esse patrimônio deve ficar? Mesmo que o serviço em que eu escrevia mude ou desapareça, eu deveria poder continuar a armazená-lo e mantê-lo, não é?
 
 **O Gitblog é um serviço que permite armazenar posts públicos e o código do blog no meu repositório do GitHub, além de escrever posts pela web ou por meio de um agente de IA para publicá-los no meu blog.** Com base na propriedade e gestão direta dos textos, adicionamos funcionalidades que facilitam a redação e a interação com os leitores.
 
@@ -39,7 +41,7 @@ Os posts públicos do Gitblog são armazenados como arquivos Markdown no seu rep
 
 **Mesmo que o serviço Gitblog seja descontinuado, o repositório da minha conta, as postagens armazenadas localmente e o código do blog permanecerão.** Se mantiver a hospedagem e o domínio, é possível continuar disponibilizando o blog estático publicado e, se necessário, transferir os arquivos para outra hospedagem. No entanto, os recursos de integração oferecidos pelo Gitblog, como navegação e assinaturas, dependem da operação do serviço.
 
-É por isso que escolhemos o GitHub como base. Muitas pessoas já o utilizam, e ele oferece a infraestrutura necessária para iniciar um blog por meio de repositórios públicos e do GitHub Pages. Mesmo na versão gratuita do GitHub, é possível usar a hospedagem do Pages para repositórios públicos. O escopo e os limites de uso seguem a [política do GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+É por isso que escolhemos o GitHub como base. Muitas pessoas já o utilizam, e ele oferece a infraestrutura necessária para iniciar um blog por meio de repositórios públicos e do GitHub Pages. Mesmo na versão gratuita do GitHub (GitHub Free), é possível usar a hospedagem do Pages para repositórios públicos. O escopo e os limites de uso seguem a [política do GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
 Não importa onde você escreva, é possível manter o original das postagens públicas sob seu controle. Esse é o primeiro princípio do Gitblog.
 
@@ -138,9 +140,9 @@ Mesmo um blog criado diretamente no GitHub pode ser gerenciado no Gitblog App, d
 
 ## Comece onde seus textos ficam guardados
 
-O Gitblog busca ser um blog que armazena seus textos na sua conta, permite que você os escreva com ferramentas com as quais está acostumado e alcança leitores em diferentes idiomas e canais. Na base disso está a crença de que, por meio da escrita, é possível compreender mais profundamente os próprios pensamentos.
+O Gitblog busca ser um blog que armazena seus textos em sua conta, permite que você os escreva com ferramentas familiares e alcança leitores em diferentes idiomas e canais. Na base disso está a crença de que, por meio da escrita, é possível compreender mais profundamente os próprios pensamentos.
 
-Não é preciso escrever um texto perfeito desde o início. Experimente registrar um fato que você descobriu hoje, uma questão sobre a qual vem refletindo há muito tempo ou um problema que você mesmo resolveu. O processo de adicionar contexto a esse registro e refiná-lo levará ao próximo texto.
+Não é preciso escrever um texto perfeito desde o início. Experimente registrar um fato que você descobriu hoje, uma questão sobre a qual vem refletindo há muito tempo ou um problema que você mesmo resolveu. O processo de adicionar contexto a esse registro e refiná-lo leva ao próximo texto.
 
 **Acumule seus pensamentos em um blog que você mesmo possui e administra.**
 

@@ -9,19 +9,21 @@ description: >-
   fondamentaux de Gitblog et comment créer votre blog.
 date: '2026-11-03T19:00:00+09:00'
 published: true
-category: Manual
+tts: true
+ttsVoice: ''
+category: Menual
 tags:
   - gitblog
   - 사용법
 locale: fr
 sourcePath: content/posts/2026-11-03-introducing-gitblog.md
-sourceHash: 13c15d5c3b84c5fbdf606fcdc5f7c99e4a899fac4004966fc72874ddfd92c3c7
+sourceHash: 873a10320749706aac03e61566ba2deb89215d2bbb07b613dbfd412af47adf4a
 sourceLocale: ko
 translationSchemaVersion: markdown-xml-v4
 translationSource: deepl
-translatedAt: '2026-11-03T16:21:41.851Z'
+translatedAt: '2026-11-04T07:53:37.540Z'
 cover: /uploads/covers/introducing-gitblog-mascot.png
-updated: '2026-11-04T01:19:03+09:00'
+updated: '2026-11-04T07:52:36.588Z'
 ---
 Ce ne sont pas seulement les articles qui s’accumulent sur un blog. Le processus de résolution d’un problème, les moments où l’on apprend quelque chose de nouveau, ainsi que le point de vue sur un sujet donné y sont également consignés. Avec le temps, ces traces deviennent un atout qui montre ce qui m’a préoccupé et comment j’ai évolué.
 
@@ -39,7 +41,7 @@ Les articles publics de Gitblog sont stockés sous forme de fichiers Markdown da
 
 **Même si le service Gitblog venait à disparaître, le dépôt de mon compte ainsi que les articles et le code du blog conservés localement resteraient intacts.** En conservant l’hébergement et le domaine, je peux continuer à proposer le blog statique déployé et, si nécessaire, transférer les fichiers vers un autre hébergeur. Toutefois, les fonctionnalités d’intégration proposées par Gitblog, telles que la navigation et l’abonnement, dépendent de l’exploitation du service.
 
-C’est d’ailleurs la raison pour laquelle nous avons choisi GitHub comme base. De nombreuses personnes l’utilisent déjà, et il offre une infrastructure permettant de créer un blog via des dépôts publics et GitHub Pages. Même avec GitHub Free, vous pouvez utiliser l’hébergement Pages pour vos dépôts publics. La portée des services et les limites d’utilisation sont régies par [la politique de GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+C’est d’ailleurs la raison pour laquelle nous avons choisi une solution basée sur GitHub. De nombreuses personnes l’utilisent déjà, et cette plateforme offre une base permettant de créer un blog via des dépôts publics et GitHub Pages. Même avec GitHub Free, vous pouvez utiliser l’hébergement Pages pour vos dépôts publics. L’étendue des services fournis et les limites d’utilisation sont régies par [la politique de GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
 Peu importe où vous rédigez vos articles, vous devez pouvoir conserver l’original de vos publications publiques entre vos mains. Tel est le premier principe de Gitblog.
 
@@ -63,7 +65,7 @@ Une fois un article publié, il faut que quelqu’un le découvre et le lise. Ce
 
 Gitblog fournit une infrastructure permettant de toucher ces lecteurs grâce à la publication multilingue et à l’accès via la recherche et l’IA.
 
-Tout d’abord, vous pouvez publier la traduction d’un texte original rédigé dans la langue de votre choix vers la langue de votre choix. La plateforme prend en charge la traduction automatique via l’API DeepL, ainsi que la publication de traductions révisées par des humains ou générées par un modèle de langage (LLM). Une clé API distincte est requise pour la traduction automatique DeepL. Si vous gérez vous-même les traductions, un processus vous permet de vérifier que la traduction reste à jour lorsque le texte original est modifié.
+Tout d’abord, vous pouvez publier la version originale, rédigée dans la langue qui vous convient, traduite dans la langue de votre choix. La plateforme prend en charge la traduction automatique via l’API DeepL, ainsi que la publication de traductions révisées par des humains ou générées par un modèle de langage (LLM). Une clé API distincte est nécessaire pour la traduction automatique DeepL. Si vous gérez vous-même la traduction, un processus vous permet de vérifier que la traduction reste à jour lorsque le texte original est modifié.
 
 De plus, afin que les moteurs de recherche et les outils d’IA puissent identifier le contenu et la source des articles, les modèles intègrent les éléments de base suivants :
 
@@ -73,7 +75,7 @@ De plus, afin que les moteurs de recherche et les outils d’IA puissent identif
 
 Cette conception tient compte de la visibilité dans les environnements de recherche, de réponse et d’IA générative, communément appelés SEO, AEO et GEO. L’objectif est de présenter le corps du texte et son contexte de manière lisible. Le classement dans les résultats de recherche ou la citation dans les réponses de l’IA sont déterminés par chaque service et ne sont pas garantis par la traduction ou les paramètres techniques seuls. [Guide d’accès à la recherche et à l’IA](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/ai-discovery.md).
 
-Il est également possible de découvrir des articles au sein même de Gitblog. Les articles des blogs participant au flux sont collectés puis affichés dans les pages d’exploration telles que « Derniers articles », « Articles populaires » ou « Tendances ». Les lecteurs peuvent ainsi trouver des articles qui les intéressent et se rendre sur le blog de l’auteur pour les lire.
+Il est également possible de découvrir des articles au sein même de Gitblog. Les articles des blogs participant au fil d’actualité sont collectés puis affichés dans les pages d’exploration telles que « Derniers articles », « Articles populaires » ou « Tendances ». Les lecteurs peuvent ainsi trouver des articles qui les intéressent et se rendre sur le blog de l’auteur pour les lire.
 
 Notre objectif est d’élargir les chances que les traces que nous laissons parviennent à ceux qui en ont besoin.
 
@@ -142,6 +144,6 @@ Gitblog vise à offrir un blog où vous pouvez conserver vos articles sur votre 
 
 Il n’est pas nécessaire d’écrire un article parfait dès le départ. Notez simplement une information que vous venez d’apprendre aujourd’hui, une question qui vous préoccupe depuis longtemps ou un problème que vous avez résolu vous-même. Le fait d’ajouter du contexte à ces notes et de les peaufiner mènera naturellement à votre prochain article.
 
-Construisez progressivement votre réflexion sur un blog qui vous appartient et que vous gérez vous-même.
+**Construisez progressivement votre réflexion sur un blog qui vous appartient et que vous gérez vous-même.**
 
 [Créer mon blog sur Gitblog](https://gitblog.app/studio)

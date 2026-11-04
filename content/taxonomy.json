@@ -96,6 +96,25 @@
         "zh-hant": "手冊"
       },
       "aliases": []
+    },
+    {
+      "id": "category-25bc5bd976d49be4fe0def26",
+      "source": "Menual",
+      "labels": {
+        "en": "Menu",
+        "ko": "메뉴",
+        "ar": "القائمة",
+        "de": "Menü",
+        "es": "Menú",
+        "fr": "Menu",
+        "it": "Menu",
+        "ja": "メニュー",
+        "pt": "Menu",
+        "pt-br": "Menu",
+        "zh-hans": "菜单",
+        "zh-hant": "選單"
+      },
+      "aliases": []
     }
   ],
   "tags": [

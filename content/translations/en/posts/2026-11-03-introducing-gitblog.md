@@ -7,19 +7,21 @@ description: >-
   started with your blog.
 date: '2026-11-03T19:00:00+09:00'
 published: true
-category: Manual
+tts: true
+ttsVoice: ''
+category: Menual
 tags:
   - gitblog
   - 사용법
 locale: en
 sourcePath: content/posts/2026-11-03-introducing-gitblog.md
-sourceHash: 13c15d5c3b84c5fbdf606fcdc5f7c99e4a899fac4004966fc72874ddfd92c3c7
+sourceHash: 873a10320749706aac03e61566ba2deb89215d2bbb07b613dbfd412af47adf4a
 sourceLocale: ko
 translationSchemaVersion: markdown-xml-v4
 translationSource: deepl
-translatedAt: '2026-11-03T16:21:38.295Z'
+translatedAt: '2026-11-04T07:53:33.307Z'
 cover: /uploads/covers/introducing-gitblog-mascot.png
-updated: '2026-11-04T01:19:03+09:00'
+updated: '2026-11-04T07:52:36.588Z'
 ---
 It’s not just posts that accumulate on a blog. The process of solving problems, the moments when I learned something new, and my perspectives on various topics are all preserved there as well. Over time, these records become an asset that shows what I’ve been thinking about and how I’ve changed.
 
@@ -33,11 +35,11 @@ Gitblog was created based on five key principles.
 
 The longer you write, the more important it is to have the confidence that you’ll always be able to revisit your work. We believe authors should be able to store, edit, and—if necessary—move their records elsewhere themselves.
 
-Public posts on Gitblog are stored as Markdown files in your GitHub repository. You can also manage blog files—including images—and code together. If you download the repository to your computer, you can read, edit, and back up your posts locally, and you can also review previous versions using Git’s change history.
+Public posts on Gitblog are stored as Markdown files in your GitHub repository. You can also manage blog files, including images, and code alongside them. If you download the repository to your computer, you can read, edit, and back up your posts locally, and you can also review previous versions using Git’s change history.
 
 **Even if the Gitblog service were to shut down, the posts and blog code stored in your account’s repository and on your local machine would remain.** As long as you maintain your hosting and domain, you can continue to serve the deployed static blog, and you can move the files to a different hosting provider if necessary. However, integrated features provided by Gitblog—such as browsing and subscription—depend on the service’s operation.
 
-This is why we chose a GitHub-based solution. Many people are already using it, and it provides the foundation to start a blog through public repositories and GitHub Pages. Even with GitHub Free, you can use Pages hosting for public repositories. The scope of service and usage limits follow [GitHub’s policies](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+This is why we chose GitHub as our platform. Many people are already using it, and it provides the foundation to start a blog through public repositories and GitHub Pages. Even with GitHub Free, you can use Pages hosting for public repositories. The scope of service and usage limits follow [GitHub’s policies](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
 No matter where you write your posts, you should retain control over the original version of your public posts. This is Gitblog’s first principle.
 
@@ -51,13 +53,13 @@ For example, you can make a request like this:
 
 > Read the AGENTS.md file in this blog repository and follow the writing guidelines. Write a post based on the notes I’ve left, and save it as a draft so I can review it.
 
-After reviewing the draft, you can request translation, verification, and deployment. The available tasks vary depending on the agent’s file access scope and command execution permissions. The specific workflow is outlined in the [Blog Writing and Translation Guide](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/authoring.md).
+After reviewing, you can request translation, verification, and deployment. The available tasks vary depending on the agent’s file access scope and command execution permissions. The specific workflow is outlined in the [Blog Writing and Translation Guide](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/authoring.md).
 
 Gitblog does not force you to use a specific AI model for writing. You can write directly on the web, use an editor you’re familiar with, or work alongside AI. Our goal is to allow authors to choose the tools that best suit their style.
 
 ## 3. Good content should be discoverable regardless of language or tool
 
-Once a post is published, someone needs to discover and read it. Some people find answers through search engines, while others encounter relevant content by asking questions on AI services. There are also readers who read in languages other than the one you use.
+Once a post is published, someone needs to discover and read it. Some people find answers through search engines, while others encounter relevant content by asking questions on AI services. There are also readers who read in languages different from the one you use.
 
 Gitblog provides a structure for multilingual publishing, search, and AI accessibility to reach these readers.
 
@@ -67,7 +69,7 @@ Additionally, the template includes the following foundational elements so that 
 
 - **Page Information for Search:** Provides the title, description, original URL, sitemap, and links to pages in different languages.
 - **Structure explaining the context of the post:** Provides structured data such as the author and publication date, and allows you to add key answers, sources, and questions and answers as needed.
-- **Direct access to the text:** Depending on the settings, it provides the Markdown version of public posts and the post list named `llms.txt`.
+- **Direct Access to the Text:** Depending on the settings, it provides the Markdown version of public posts and the post list named `llms.txt`.
 
 This design takes into account discoverability in search, answer, and generative AI environments—commonly referred to as SEO, AEO, and GEO. The goal is to present the article’s body and context in an easy-to-read format. Search result rankings and citations in AI responses are determined by each service and are not guaranteed solely by translation or technical settings. [Guide to Search and AI Access](https://github.com/gitblogapp/gitblog-blog/blob/main/docs/gitblog/ai-discovery.md).
 
@@ -83,7 +85,7 @@ On Gitblog, this interest extends to connections on GitHub. **Subscribing to a b
 
 It may seem trivial, but we believe this connection is meaningful. This is because writing and thoughts are added to the picture revealed through code and projects. Posts explaining decisions made in a project, the process of solving problems, and lessons learned become another avenue for understanding that person’s work.
 
-The number of stars or followers does not determine the value of a post. However, the fact that readers who resonate with your writing may come to look forward to your next post can be a reason to keep writing consistently.
+The number of stars or followers doesn’t determine the value of a post. However, the fact that readers who resonate with your writing may look forward to your next post can be a reason to keep writing consistently.
 
 ## 5. Writing Remains Important Even in the Age of AI
 
@@ -103,7 +105,7 @@ You can start Gitblog using Studio on the web, or you can create a blog reposito
 
 ### 1. Sign up with a GitHub account
 
-Go to [Gitblog](https://gitblog.app/ko) and sign up or log in with your GitHub account. After logging in, navigate to Studio, where you can create and manage your blog.
+Go to [Gitblog](https://gitblog.app/ko) and sign up or log in with your GitHub account. After logging in, go to Studio, where you can create and manage your blog.
 
 ### 2. Connect the GitHub App and Create a Blog
 
