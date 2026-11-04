@@ -352,6 +352,13 @@ a:hover {
 .hero-cover {
   height: auto;
 }
+.hero-cover-dark,
+[data-theme='dark'] .hero-cover-light {
+  display: none;
+}
+[data-theme='dark'] .hero-cover-dark {
+  display: block;
+}
 .cover-art[data-variant='1'] {
   background: #eef1f5;
   color: #465e80;

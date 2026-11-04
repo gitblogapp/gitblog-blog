@@ -47,7 +47,16 @@ const date = (value: string) =>
   </div>
   <div class="hero-visual">
     <img
-      class="cover-art hero-cover"
+      class="cover-art hero-cover hero-cover-light"
+      src={withBase(config, '/uploads/blog/gitblog-home-hero-light.webp')}
+      alt="Gitblog Official Blog"
+      width="1672"
+      height="941"
+      fetchpriority="high"
+      decoding="async"
+    />
+    <img
+      class="cover-art hero-cover hero-cover-dark"
       src={withBase(config, '/uploads/blog/gitblog-home-hero.webp')}
       alt="Gitblog Official Blog"
       width="1672"
