@@ -1,5 +1,6 @@
 ---
 id: f2c641a8-e850-4ae0-89a1-14ee48d9a1a2
+translationMode: deepl
 title: "Gitblog 소개: 내 글을 소유하고, 내 블로그를 운영하는 방법"
 description: 내 GitHub 저장소에 글을 보관하고, AI와 함께 쓰고, 더 많은 독자와 연결하세요. Gitblog가 지향하는 다섯
   가지 철학과 블로그를 시작하는 방법을 소개합니다.
