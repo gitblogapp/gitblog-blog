@@ -5,14 +5,14 @@ title: "Gitblog 소개: 내 글을 소유하고, 내 블로그를 운영하는 �
 description: 내 GitHub 저장소에 글을 보관하고, AI와 함께 쓰고, 더 많은 독자와 연결하세요. Gitblog가 지향하는 다섯
   가지 철학과 블로그를 시작하는 방법을 소개합니다.
 date: 2026-11-03T19:00:00+09:00
-updated: 2026-11-04T07:52:36.588Z
+updated: 2026-11-04T08:18:26.726Z
 published: true
 category: Menual
 tags:
   - gitblog
   - 사용법
 cover: /uploads/covers/introducing-gitblog-mascot.png
-tts: true
+tts: false
 ttsVoice: ""
 firstPublishedAt: 2026-11-03T19:00:00+09:00
 ---
