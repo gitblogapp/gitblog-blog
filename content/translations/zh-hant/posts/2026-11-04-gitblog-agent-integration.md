@@ -6,18 +6,18 @@ date: '2026-11-04T09:00:00+09:00'
 published: true
 translationMode: manual
 cover: /uploads/covers/gitblog-agent-integration.png
-category: Menual
+category: Manual
 tags:
   - gitblog
   - 사용법
 locale: zh-hant
 sourceLocale: ko
 sourcePath: content/posts/2026-11-04-gitblog-agent-integration.md
-sourceHash: 9722a1b6fe2d8501e21917779836e0977c9788f0909888839f613e3ac1e207d0
+sourceHash: ca2327a8f1c910fe46e9b692e4c94b60a1b587fac8d783de16da8462495f034d
 translationSchemaVersion: manual-v1
 translationSource: manual
 translatedAt: '2026-11-04T10:29:36.867Z'
-translationContentHash: f13e24a8672201b700ccc3fb248de4e46eb2a91fa3e5cdede8fdaab3bfc8d9c4
+translationContentHash: 7072b61f4216943ee3523794ad29bb5ce2ecbee39f6824d32de58767baf8c560
 ---
 
 如果每天早上都能查閱感興趣領域的新聞，把重要內容整理到自己的部落格裡，會怎麼樣？你可以將從研究到寫作、發布的工作交給自己的 AI 助理。

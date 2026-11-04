@@ -9,13 +9,13 @@ date: '2026-11-03T19:00:00+09:00'
 published: true
 tts: false
 ttsVoice: ''
-category: Menual
+category: Manual
 tags:
   - gitblog
   - 사용법
 locale: en
 sourcePath: content/posts/2026-11-03-introducing-gitblog.md
-sourceHash: 6a6472f8cf99802eee3c012514d125c9cc597976e5cb55f53976f3120c011231
+sourceHash: 482d658f8e0f1c826abe7be3dc181e1d71fd2ef649498857cfad1ce6deda10a6
 sourceLocale: ko
 translationSchemaVersion: markdown-xml-v4
 translationSource: deepl

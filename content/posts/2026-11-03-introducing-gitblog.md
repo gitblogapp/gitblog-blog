@@ -7,7 +7,7 @@ description: 내 GitHub 저장소에 글을 보관하고, AI와 함께 쓰고, �
 date: 2026-11-03T19:00:00+09:00
 updated: 2026-11-04T08:18:26.726Z
 published: true
-category: Menual
+category: Manual
 tags:
   - gitblog
   - 사용법

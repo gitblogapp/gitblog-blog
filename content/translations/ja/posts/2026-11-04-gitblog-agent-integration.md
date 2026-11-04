@@ -6,18 +6,18 @@ date: '2026-11-04T09:00:00+09:00'
 published: true
 translationMode: manual
 cover: /uploads/covers/gitblog-agent-integration.png
-category: Menual
+category: Manual
 tags:
   - gitblog
   - 사용법
 locale: ja
 sourceLocale: ko
 sourcePath: content/posts/2026-11-04-gitblog-agent-integration.md
-sourceHash: 9722a1b6fe2d8501e21917779836e0977c9788f0909888839f613e3ac1e207d0
+sourceHash: ca2327a8f1c910fe46e9b692e4c94b60a1b587fac8d783de16da8462495f034d
 translationSchemaVersion: manual-v1
 translationSource: manual
 translatedAt: '2026-11-04T10:28:19.147Z'
-translationContentHash: 355587dffc1b167bcd3baf9b907a1dea633253aeea5e4d1012ebed3b5a1e138b
+translationContentHash: 5edd3b789be7622a2da1397f4ae5aee9eeae3a863b4f7c9a727fa5e5e32ed98b
 ---
 
 毎朝、関心のある分野のニュースを調べて読み、大切な内容を自分のブログに残せたらどうでしょう。調査から執筆、公開までの作業を、自分のAIアシスタントに任せるのです。

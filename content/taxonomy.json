@@ -79,7 +79,7 @@
       "aliases": []
     },
     {
-      "id": "category-36bde66f289a35683683b041",
+      "id": "category-25bc5bd976d49be4fe0def26",
       "source": "Manual",
       "labels": {
         "en": "Manual",
@@ -95,26 +95,9 @@
         "zh-hans": "手册",
         "zh-hant": "手冊"
       },
-      "aliases": []
-    },
-    {
-      "id": "category-25bc5bd976d49be4fe0def26",
-      "source": "Menual",
-      "labels": {
-        "en": "Menual",
-        "ko": "매뉴얼",
-        "ar": "الدليل",
-        "de": "Handbuch",
-        "es": "Manual",
-        "fr": "Manuel",
-        "it": "Manuale",
-        "ja": "マニュアル",
-        "pt": "Manual",
-        "pt-br": "Manual",
-        "zh-hans": "手册",
-        "zh-hant": "手冊"
-      },
-      "aliases": []
+      "aliases": [
+        "category-36bde66f289a35683683b041"
+      ]
     }
   ],
   "tags": [

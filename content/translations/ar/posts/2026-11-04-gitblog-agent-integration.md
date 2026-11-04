@@ -8,18 +8,18 @@ date: '2026-11-04T09:00:00+09:00'
 published: true
 translationMode: manual
 cover: /uploads/covers/gitblog-agent-integration.png
-category: Menual
+category: Manual
 tags:
   - gitblog
   - 사용법
 locale: ar
 sourceLocale: ko
 sourcePath: content/posts/2026-11-04-gitblog-agent-integration.md
-sourceHash: 9722a1b6fe2d8501e21917779836e0977c9788f0909888839f613e3ac1e207d0
+sourceHash: ca2327a8f1c910fe46e9b692e4c94b60a1b587fac8d783de16da8462495f034d
 translationSchemaVersion: manual-v1
 translationSource: manual
 translatedAt: '2026-11-04T10:30:26.003Z'
-translationContentHash: b58043273e6a82522469901dbcbfb5e8388728b298c0735987953bbd3ab6d0b3
+translationContentHash: eb2aafe6135539b5ef285139ccb69fcf04d241b691153101d12b64ab975fa9c3
 ---
 
 ماذا لو استطعت كل صباح قراءة أخبار المجالات التي تهمك وحفظ أهم ما فيها في مدونتك الخاصة؟ يمكن لمساعدك الذكي تولّي العمل، من البحث إلى الكتابة والنشر.

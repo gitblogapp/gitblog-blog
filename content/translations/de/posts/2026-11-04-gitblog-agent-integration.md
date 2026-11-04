@@ -11,18 +11,18 @@ date: '2026-11-04T09:00:00+09:00'
 published: true
 translationMode: manual
 cover: /uploads/covers/gitblog-agent-integration.png
-category: Menual
+category: Manual
 tags:
   - gitblog
   - 사용법
 locale: de
 sourceLocale: ko
 sourcePath: content/posts/2026-11-04-gitblog-agent-integration.md
-sourceHash: 9722a1b6fe2d8501e21917779836e0977c9788f0909888839f613e3ac1e207d0
+sourceHash: ca2327a8f1c910fe46e9b692e4c94b60a1b587fac8d783de16da8462495f034d
 translationSchemaVersion: manual-v1
 translationSource: manual
 translatedAt: '2026-11-04T10:25:01.512Z'
-translationContentHash: 13c98f56e0542f41277a69da5e448f701b934cda5bfc9f1d6b2dd36c3f278b87
+translationContentHash: cec89bbfe728c1398502ebcd7eb2a0e66ec6720802769e2bbdb9f57ce74f16ff
 ---
 
 Wie wäre es, jeden Morgen Neuigkeiten zu Ihren Interessen zu lesen und das Wesentliche im eigenen Blog festzuhalten? Ihr KI-Assistent kann die Arbeit von der Recherche bis zum Schreiben und Veröffentlichen übernehmen.
